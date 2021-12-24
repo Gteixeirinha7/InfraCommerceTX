@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReversaStatus__c</fullName>
+    <description>Rastreia o processo de Reversa dos Correios através dos Status.</description>
+    <externalId>false</externalId>
+    <label>Status da Reversa</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aguardando Objeto na Agência</fullName>
+                <default>false</default>
+                <label>Aguardando Postagem Consumidor</label>
+            </value>
+            <value>
+                <fullName>Prazo de Utilização Expirado</fullName>
+                <default>false</default>
+                <label>Prazo de Postagem Expirado</label>
+            </value>
+            <value>
+                <fullName>Coletado</fullName>
+                <default>false</default>
+                <label>Em rota para o CD</label>
+            </value>
+            <value>
+                <fullName>Entrega não realizada</fullName>
+                <default>false</default>
+                <label>Entrega não realizada</label>
+            </value>
+            <value>
+                <fullName>Aguardando Check-in Reversa</fullName>
+                <default>false</default>
+                <label>Aguardando Check-in Reversa</label>
+            </value>
+            <value>
+                <fullName>Reversa Liberada</fullName>
+                <default>false</default>
+                <label>Reversa Liberada</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,26 @@
+<template>
+    <lightning-card title="Lista de Produtos do Pedido relacionado ao Caso">
+        <div class="demo-only demo-only--sizing slds-grid slds-wrap">
+            <div class="slds-size_1-of-2">
+                <lightning-input class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small"  type="text" name="input7" label="Valor Máximo da Troca" disabled value={valorTotal}></lightning-input>
+            </div>
+            <div class="slds-size_1-of-2">
+                <lightning-input class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small"  type="number" formatter="currency" name="input7" label="Valor Total dos Pedidos Selecionados" disabled value={valorTotalSelecionado}></lightning-input>
+            </div>
+        </div>
+        <lightning-datatable
+                    key-field="id"
+                    data={data}
+                    columns={columns}
+                    onsave={handleSave}
+                    draft-values={saveDraftValues} 
+                    onrowselection={getSelectedDel}
+                    oncellchange={handleCellChange}
+                    suppress-bottom-bar>
+        </lightning-datatable>
+        <div class="slds-var-m-bottom_large slds-clearfix" style="margin-bottom: 10px; margin-right: 10px; margin-top: 10px;">
+            <lightning-button variant="brand-outline" label="Anterior" type="button" class="slds-m-left_x-small slds-float_left" onclick={handleNavigateA}></lightning-button> 
+            <lightning-button variant="brand" label="Proximo"  type="button" class="slds-m-left_x-small slds-float_right" onclick={handleNavigateP}></lightning-button> 
+        </div>
+    </lightning-card>
+</template>

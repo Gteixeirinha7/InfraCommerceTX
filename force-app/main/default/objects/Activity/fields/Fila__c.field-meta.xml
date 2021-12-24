@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fila__c</fullName>
+    <externalId>false</externalId>
+    <label>Fila</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Atendimento N1</fullName>
+                <default>false</default>
+                <label>Atendimento N1</label>
+            </value>
+            <value>
+                <fullName>Key account</fullName>
+                <default>false</default>
+                <label>Key account</label>
+            </value>
+            <value>
+                <fullName>Financeiro Infra</fullName>
+                <default>false</default>
+                <label>Financeiro Infra</label>
+            </value>
+            <value>
+                <fullName>Transportes</fullName>
+                <default>false</default>
+                <label>Transportes</label>
+            </value>
+            <value>
+                <fullName>Logística</fullName>
+                <default>false</default>
+                <label>Logística</label>
+            </value>
+            <value>
+                <fullName>Darkstore</fullName>
+                <default>false</default>
+                <label>Darkstore</label>
+            </value>
+            <value>
+                <fullName>Distribuidor</fullName>
+                <default>false</default>
+                <label>Distribuidor</label>
+            </value>
+            <value>
+                <fullName>Tech</fullName>
+                <default>false</default>
+                <label>Tech</label>
+            </value>
+            <value>
+                <fullName>Market Place</fullName>
+                <default>false</default>
+                <label>Market Place</label>
+            </value>
+            <value>
+                <fullName>Reclame Aqui</fullName>
+                <default>false</default>
+                <label>Reclame Aqui</label>
+            </value>
+            <value>
+                <fullName>Consumidor</fullName>
+                <default>false</default>
+                <label>Consumidor</label>
+            </value>
+            <value>
+                <fullName>Financeiro Marca</fullName>
+                <default>false</default>
+                <label>Financeiro Marca</label>
+            </value>
+            <value>
+                <fullName>Consumidor Marca</fullName>
+                <default>false</default>
+                <label>Consumidor Marca</label>
+            </value>
+            <value>
+                <fullName>Logística Marca</fullName>
+                <default>false</default>
+                <label>Logística Marca</label>
+            </value>
+            <value>
+                <fullName>SAC</fullName>
+                <default>false</default>
+                <label>SAC</label>
+            </value>
+            <value>
+                <fullName>NRP</fullName>
+                <default>false</default>
+                <label>NRP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

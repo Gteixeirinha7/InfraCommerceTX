@@ -1,0 +1,47 @@
+<template>
+    <template if:true={hideResponse}>
+        <div style="width: 1000px" class="slds-grid slds-grid_vertical slds-align_absolute-center">
+            <div class="slds-col slds-text-heading_large">Pesquisa de Satisfação</div>
+            <div style="width: 100%" class="slds-grid slds-grid_vertical slds-col container">
+                <div style="margin-top: 10px" class="combo-box">
+                    <lightning-combobox
+                        name="problem-solved"
+                        label="O seu problema foi resolvido?"
+                        value={value}
+                        placeholder="Selecione uma das opções abaixo:"
+                        options={problemSolvedOptions}
+                        onchange={handleChange} >
+                    </lightning-combobox>
+                </div>
+                <div class="combo-box">
+                    <lightning-combobox
+                        name="rating"
+                        label="Qual nota você dá para este atendimento?"
+                        value={ratingValue}
+                        options={ratingValueOptions}
+                        onchange={handleRatingChange} >
+                    </lightning-combobox>
+                </div>
+                
+                <div class="combo-box">
+                    <label class="slds-form-element__label" for="observations">Comentários:</label>
+                    <lightning-input type="text" variant="label-hidden" placeholder="Máx. 1024 caracteres" max-length="1024" name="observations" value={observations} onchange={handleCommentChange}>
+                    </lightning-input>
+                    <div class="slds-float_right">
+                        <p>{characterCount}/1024</p>
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 10px" class="combo-box">
+                    <button class="slds-button slds-button_brand slds-button_stretch" onclick={handleClick}>Enviar</button>
+                </div>
+
+            </div>
+        </div>
+    </template>
+    <template if:true={showResponse}>
+        <div class="slds-grid slds-grid_vertical slds-align_absolute-center">
+            <div class="slds-col slds-text-heading_large">{responseMessage}</div>
+        </div>
+    </template>
+</template>

@@ -1,0 +1,1351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ServiceCase</fullName>
+    <active>true</active>
+    <businessProcess>Caso de Atendimento</businessProcess>
+    <label>Caso de Atendimento</label>
+    <picklistValues>
+        <picklist>AccountType__c</picklist>
+        <values>
+            <fullName>currentAccount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>savingsAccount</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DocumentType__c</picklist>
+        <values>
+            <fullName>cnpj</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>cpf</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Bites</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumidor%2Egov</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ExchangeOnSite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instagram</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Litigation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketplace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raizen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ReclameAqui</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Score Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Twitter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WebToCase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Whatsapp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zendesk</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>Critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ProtocolType__c</picklist>
+        <values>
+            <fullName>NoProtocoliHub</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ruptura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>exchange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>return</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Complex functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructions not clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User didn%27t attend training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason__c</picklist>
+        <values>
+            <fullName>Assistência Técnica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atendimento Distribuidor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atendimento Loja Física</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atendimento NRP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atendimento TI Nível 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atualização de Estrutura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bug no site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente atesta não conformidade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente não gostou do produto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Correção</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cupom não funciona</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dúvidas Loja Física</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elogio atendimento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elogio da Logística</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elogio da marca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elogio de Transporte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elogio do Site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elogio do produto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Erro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informações</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informações sobre pedidos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Institucional Marca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integração de Limite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integração de pagamento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integração de pedido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integração de preço</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integração de produto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integração de tracking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Localização</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parceria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problema com lista sugerida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Produto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promoções</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rever aprovação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAC Infra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAC Terceiro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Status da entrega-CD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Status da entrega-Transporte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Status do pagamento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Status reversa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telefone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Whatsapp</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ReversaStatus__c</picklist>
+        <values>
+            <fullName>Aguardando Check-in Reversa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aguardando Objeto na Agência</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coletado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entrega não realizada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prazo de Utilização Expirado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reversa Liberada</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SubReason__c</picklist>
+        <values>
+            <fullName>Acesso BI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agilidade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aguardando despacho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aguardando expedição</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aguardando faturamento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aguardando personalização</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aguardando separação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alteração de Valor de Pedido mínimo do Site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alteração de endereço</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alteração no preço</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anti-fraude</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Análise de Risco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atendimento robotizado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avaria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avaria na embalagem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avaria no conteúdo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BI Não carrega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baixa durabilidade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Beleza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Black List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boleto não enviado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boleto não faturado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CEP não atendido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CEP não atendido por distribuidor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CEP não localizado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CNPJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cadastro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cadastro de Produtos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelamento Vale Compra Agora</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelamento como funciona</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chat desconectado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cobrança de Faturamento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coleta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coleta não realizada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Como acessar a conta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Como investir</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compensação bancária %28não localizada%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compensação de pedido %28não localizado%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comprou errado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comprovante de Entrega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comunicados Diversos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custo beneficio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dados cadastrais</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Defeito de fabricação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Descrição do produto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Descrição do produto incompleta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Descrição do produto incorreta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Devolução na loja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dificuldade na navegação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distribuidor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Divergência no cheiro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Divergência no gosto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dúvida em apuração</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dúvida sobre prazo de entrega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dúvida sobre produtos comprados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dúvida sobre promoções</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dúvida sobre promoções aplicadas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dúvidas Tabela de medidas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dúvidas Vale Compra Agora</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dúvidas sobre Acesso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dúvidas sobre dados no BI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-mail SPAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-mail duplicado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-ticket vencido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Em rota dentro do prazo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Em rota prazo expirado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Embalagem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Endereço</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Endereço errado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Endereço insuficiente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entrega%2C prazos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entregador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entregue no CD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Envio segunda via de nota fiscal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Erro ao Acessar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Erro de personalização</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Erro reportado pela IFC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Erro reportado pela IFC NCC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Extravio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Faixa de CEP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta de funcionalidade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta de retorno</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta item</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fidelidade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foto detalhe divergente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foto modelo divergente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foto tonalidade divergente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Funcionalidade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Funcionário não cadastrado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Funcionários</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Imagem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impressão de boletos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inscrição estadual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Institucional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integração de Limite - TI NRP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integração de Pagamento - TI NRP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integração de Pedido - TI NRP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integração de Preço - TI NRP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integração de Produto - TI NRP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integração de Tracking - TI NRP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Item divergente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lentidão</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lentidão no site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ligação muda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limite de crédito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limite enviado errado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limite não atualizado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limite não refletido %28fora do prazo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limite não refletido %28no prazo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loja Física</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Looping ao tentar finalizar a compra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Material de divulgação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mau atendimento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NRP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Navegação no Site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não aparece o pedido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não conhece processos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não consegue acessar a conta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não executou o procedimento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não funciona o cupom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não gostei da qualidade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não modelou bem no corpo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não recebeu código de autenticação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não recebeu o brinde</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não recebeu o e-ticket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não reconhece a entrega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outros dados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pagamento não refletido %28fora do prazo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pagamento não refletido %28no prazo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pagamento%2C prazos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parceiro não vê preço</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parceiro não vê sortimento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patrocínio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pedido cancelado parcial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pedido cancelado pelo distribuidor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pedido cancelado total</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pedido faturado não localizado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pedido não aprovado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pedido não integrado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pedido não integrado %28fora do prazo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pedido não integrado %28no prazo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pedido não integrado %28problema no distribuidor%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pedido trocado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prazo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prazo de entrega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prazo de entrega alterado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Preço</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Preço enviado errado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Preço não refletido %28fora do prazo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Preço não refletido %28no prazo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primeira Compra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problema com itens da lista</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problema com preço da lista</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problema na pulseira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problemas de sincronização</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problemas na calibração</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problemas na textura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problemas no carrinho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Processo de compra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Processo de troca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Produto diferente do site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Produto em rota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Produto vencido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prorrogação de boleto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Próximo do vencimento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Queda na ligação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reação adversa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Redefinir senha</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reembolso indevido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reenvio de senha</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regras%2Fprazos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repasse não localizado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reset de senha</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resposta padrão</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retido na fiscalização</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revender produto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ruptura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ruptura Vale Compra Agora</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAC Infra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAC Terceiro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SKU enviado errado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SKU não refletido %28fora do prazo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SKU não refletido %28no prazo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Segunda via de boleto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sem retorno do consumidor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site indisponível</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site não acessa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicita alteração de dados da conta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicita reset de senha</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitação de Exclusão de Prazos de Pagamento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitação de Inclusão de Prazos de Pagamento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitação de alteração</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitação de exclusão</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitação de inclusão</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Status de pagamento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tabela de tamanho divergente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tamanho grande</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tamanho pequeno</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taxa Operacional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tentativa de entrega sem sucesso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trabalhe conosco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tracking com resposta errada %28problema no distribuidor%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tracking desatualizado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tracking enviada errada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tracking enviada fora de ordem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tracking não refletido %28fora do prazo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tracking não refletido %28no prazo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troca na loja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valor divergente compensado %28Utilizado Vale Troca%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valor divergente compensado %28Utilizado outro meio%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valor do frete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valor do frete alto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vencimento Próximo</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TipoMarca__c</picklist>
+        <values>
+            <fullName>B2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B2C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NRP</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TipoSLA__c</picklist>
+        <values>
+            <fullName>N1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Atendimento sobre a Devolução</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atendimento sobre a Troca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atendimento sobre o Pedido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dúvidas sobre Distribuidor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dúvidas sobre Site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dúvidas sobre a Marca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elogios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Improdutivo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NRP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reclamação de Atendimento</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

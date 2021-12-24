@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EnderecoReversa__c</fullName>
+    <externalId>false</externalId>
+    <formula>LogradouroReversa__c &amp; &quot;, &quot; &amp; NumeroReversa__c &amp; &quot;, &quot; &amp; ComplementoReversa__c &amp; BR() &amp;
+&quot;CEP: &quot; &amp; CepReversa__c &amp; &quot; - &quot; &amp; BairroReversa__c &amp; BR() &amp;
+CidadeReversa__c &amp; &quot;/&quot; &amp; TEXT(UFReversa__c)</formula>
+    <label>Endereço de Entrega Reversa</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<template>
+    <lightning-quick-action-panel title="Quick Action Title">
+        <lightning-card>
+            <p>Escreva sua Mensagem!</p>
+
+            <lightning-input type="text" id='mensagem' placeholder="Digite sua mensagem..." onblur={messageTyped}></lightning-input>
+            <footer class="slds-modal__footer">
+                <button class="slds-button slds-button_neutral">Cancelar</button>
+                <button class="slds-button slds-button_brand" onclick={enviarMensagem}>Enviar</button>
+            </footer> 
+        </lightning-card>
+        <!--<div class="slds-backdrop slds-backdrop_open"></div>-->
+    </lightning-quick-action-panel>
+</template>

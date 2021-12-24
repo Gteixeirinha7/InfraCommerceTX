@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IntegrationAccount__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Identifica se a conta foi criada pela integração ou pelo SF.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Identifica se a conta foi criada pela integração (Marcado) ou pelo SF (Desmarcado).</inlineHelpText>
+    <label>Conta integração?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

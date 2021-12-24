@@ -1,0 +1,30 @@
+.bear-tile {
+    border: 1px solid #e5e5e5; 
+    border-radius: .25rem;
+    display: block;
+}
+
+.bear-tile-selected{
+    border: 1px solid #0070d2; 
+    border-radius: .25rem;
+    display: block;
+}
+
+.bear-tile .slds-card__header {
+    padding-left: 0 !important;
+}
+
+.slds-grid_pull-padded {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.products-view {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.buttons-div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

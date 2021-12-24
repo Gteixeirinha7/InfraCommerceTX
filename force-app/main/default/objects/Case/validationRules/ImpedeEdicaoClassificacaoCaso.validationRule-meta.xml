@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ImpedeEdicaoClassificacaoCaso</fullName>
+    <active>true</active>
+    <description>Validação que impede o Perfil Atendente de editar a classificação dos casos nos campos:
+Tipo do Caso, Motivo do caso, e Sub-motivo do caso.</description>
+    <errorConditionFormula>AND(
+  $Profile.Name = &quot;Atendente&quot;,
+  NOT(ISNEW()),
+   OR(
+     AND(ISCHANGED( Type ), NOT(ISBLANK(PRIORVALUE(Type)))),
+     AND(ISCHANGED( Reason__c), NOT(ISBLANK(PRIORVALUE(Reason__c)))),
+     AND(ISCHANGED( SubReason__c ), NOT(ISBLANK(PRIORVALUE(SubReason__c))))
+    )
+)</errorConditionFormula>
+    <errorMessage>Os campos Tipo, Motivo e Sub-Motivo do Caso não podem ser editados após cadastro do caso.</errorMessage>
+</ValidationRule>

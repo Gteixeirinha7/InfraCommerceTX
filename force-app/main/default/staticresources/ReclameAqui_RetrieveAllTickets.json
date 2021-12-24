@@ -1,0 +1,3027 @@
+{
+    "data": [
+        {
+            "hugme_status": {
+                "id": 2,
+                "name": "Respondido"
+            },
+            "ra_status": {
+                "id": 8,
+                "name": "Réplica da empresa"
+            },
+            "favorable_assessment": {
+                "id": 0,
+                "description": "Não Solicitado"
+            },
+            "information_source": {
+                "id": 1,
+                "name": "RA Reclamação"
+            },
+            "source": {
+                "id": 1,
+                "name": "ReclameAQUI"
+            },
+            "company": {
+                "id": 2462,
+                "name": "Koala Testes (63) 14072021"
+            },
+            "last_feeling": {
+                "id": -1,
+                "name": null
+            },
+            "feed_type": {
+                "id": -1,
+                "name": null
+            },
+            "moderation": {
+                "user": {
+                    "id": -1,
+                    "name": null
+                },
+                "status": null,
+                "reason": "Reclamação de Terceiros",
+                "request_date": "2021-08-20T02:08:54.000Z",
+                "response_date": null
+            },
+            "ra": {
+                "replicas_count": 21,
+                "source_id": 1,
+                "source_name": "Site",
+                "deactivation_date": null,
+                "deactivation_reason": null,
+                "internal_process": true,
+                "blackfriday": false
+            },
+            "customer": {
+                "birthday": [
+                    "1997-12-02T00:00:00.000Z"
+                ],
+                "cpf": [
+                    "47595533805"
+                ],
+                "rg": [],
+                "gender": [
+                    "Masculino"
+                ],
+                "email": [
+                    "joao_slc@hotmail.com.br"
+                ],
+                "phone_numbers": [
+                    "11966266400",
+                    "11966266400"
+                ],
+                "photo": [],
+                "id": 59483267,
+                "duplicate_id": -1,
+                "name": "João Pedro de Souza Lima Cruz",
+                "cnpj": [],
+                "company_name": "[]",
+                "city": [
+                    {
+                        "id": -1,
+                        "name": null
+                    }
+                ],
+                "state": [
+                    {
+                        "id": 26,
+                        "name": "São Paulo",
+                        "fs": "SP"
+                    }
+                ],
+                "type": "Private Person",
+                "tags": [],
+                "pending_tickets_count": 0
+            },
+            "user": {
+                "id": -1,
+                "name": null
+            },
+            "account": {
+                "id": -1,
+                "name": null
+            },
+            "rafone": {
+                "expiration_date": null,
+                "status_id": -1,
+                "status_name": null
+            },
+            "_id": "610ab7dfbbd51c5386de3f7b",
+            "id": 45543619,
+            "source_external_id": "127622311",
+            "can_like": false,
+            "commentary": false,
+            "creation_date": "2021-08-04T15:50:48.000Z",
+            "insertion_date": "2021-08-04T15:52:46.000Z",
+            "complaint_title": "Sem retorno sobre estado do produto",
+            "filed": false,
+            "last_modification_date": "2021-08-21T03:13:27.000Z",
+            "closed_date": null,
+            "request_moderation": false,
+            "request_evaluation": false,
+            "frozen": false,
+            "complaint_content": "Recebi um produto com muitas falhas de produção e estou com dúvida sobre sua autenticidade. Questionei a loja sobre a originalidade do produto há 2 semanas e não obtive resposta alguma.",
+            "ra_reason": "Outros",
+            "ra_feeling": null,
+            "complaint_response_content": "Lorem ipsum",
+            "complaint_response_date": "2021-08-16T15:13:03.000Z",
+            "interactions_count": 33,
+            "interactions_not_readed_count": 49,
+            "resolved_issue": false,
+            "back_doing_business": false,
+            "consumer_consideration": null,
+            "consumer_consideration_date": null,
+            "company_consideration": "Filipe",
+            "company_consideration_date": "2021-08-20T04:30:00.000Z",
+            "private_treatment_time": null,
+            "public_treatment_time": "17242",
+            "rating_time": null,
+            "rating": "-1",
+            "rating_date": null,
+            "comments_count": 0,
+            "redistributions_count": 0,
+            "redistributions_reason": null,
+            "ticket_moderations_count": 1,
+            "ticket_messages_count": 18,
+            "last_replica_date": "2021-08-20T04:30:00.000Z",
+            "contact_us": null,
+            "rating_without_response": false,
+            "hugme_ticket_type": null,
+            "customer_interactions_count": 5,
+            "company_interactions_count": 44,
+            "assignment_count": 0,
+            "rule_id": 7868,
+            "duplicate_ticket": [],
+            "tags": [],
+            "extra_data": {},
+            "sticky_notes": [],
+            "autos": [],
+            "personalized_fields": [],
+            "attached": [
+                {
+                    "id": "381909258",
+                    "type_detail_id": 15,
+                    "name": "Anexo",
+                    "detail_description": "https://s3-sa-east-1.amazonaws.com/hugme-ra/mensagens_privada/6d36698fab03f9ee9b9cdf3d0c6fe982.docx",
+                    "creation_date": "2021-08-19T18:21:56.000Z",
+                    "privacy": false
+                },
+                {
+                    "id": "381945090",
+                    "type_detail_id": 15,
+                    "name": "Anexo",
+                    "detail_description": "https://s3-sa-east-1.amazonaws.com/hugme-ra/mensagens_privada/674323844006c0c2c1ea1b4159e58c4d.docx",
+                    "creation_date": "2021-08-19T20:10:30.000Z",
+                    "privacy": false
+                },
+                {
+                    "id": "381946922",
+                    "type_detail_id": 15,
+                    "name": "Anexo",
+                    "detail_description": "https://s3-sa-east-1.amazonaws.com/hugme-ra/mensagens_privada/37293c84f76edd9fee334b6512c58cc1.docx",
+                    "creation_date": "2021-08-19T20:16:20.000Z",
+                    "privacy": false
+                },
+                {
+                    "id": "382008605",
+                    "type_detail_id": 15,
+                    "name": "Anexo",
+                    "detail_description": "https://s3-sa-east-1.amazonaws.com/hugme-ra/mediacoes/d51b7f688834907b62fef489732618b9.jpg",
+                    "creation_date": "2021-08-20T02:08:50.000Z",
+                    "privacy": false
+                },
+                {
+                    "id": "382015448",
+                    "type_detail_id": 15,
+                    "name": "Anexo",
+                    "detail_description": "https://s3-sa-east-1.amazonaws.com/hugme-ra/mensagens_privada/9e42421f719bb5dd76cc93db4083929c.docx",
+                    "creation_date": "2021-08-20T04:14:15.000Z",
+                    "privacy": false
+                },
+                {
+                    "id": "382015542",
+                    "type_detail_id": 15,
+                    "name": "Anexo",
+                    "detail_description": "https://s3-sa-east-1.amazonaws.com/hugme-ra/mensagens_privada/108b44abdf18755667a7a6417e2fb3da.docx",
+                    "creation_date": "2021-08-20T04:15:07.000Z",
+                    "privacy": false
+                },
+                {
+                    "id": "382257035",
+                    "type_detail_id": 15,
+                    "name": "Anexo",
+                    "detail_description": "https://s3-sa-east-1.amazonaws.com/hugme-ra/mensagens_privada/3f979efff8d998fc685e4e497784b143.jpg",
+                    "creation_date": "2021-08-21T03:08:14.000Z",
+                    "privacy": false
+                },
+                {
+                    "id": "382257281",
+                    "type_detail_id": 15,
+                    "name": "Anexo",
+                    "detail_description": "https://s3-sa-east-1.amazonaws.com/hugme-ra/mensagens_privada/d2f89f27c60948e6d564f32419dd771f.jpg",
+                    "creation_date": "2021-08-21T03:12:39.000Z",
+                    "privacy": false
+                },
+                {
+                    "id": "382257283",
+                    "type_detail_id": 15,
+                    "name": "Anexo",
+                    "detail_description": "https://s3-sa-east-1.amazonaws.com/hugme-ra/mensagens_privada/25108e02d3d148a6ce145f9c150b63ee.jpg",
+                    "creation_date": "2021-08-21T03:13:25.000Z",
+                    "privacy": false
+                }
+            ],
+            "categories": [],
+            "historical": [
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 575104176,
+                    "creation_date": "2021-08-04T15:52:47.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 575104177,
+                    "creation_date": "2021-08-04T15:52:47.000Z",
+                    "type": {
+                        "id": 1,
+                        "name": "CRIACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 578880349,
+                    "creation_date": "2021-08-16T15:12:58.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 578880350,
+                    "creation_date": "2021-08-16T15:12:58.000Z",
+                    "type": {
+                        "id": 20,
+                        "name": "resposta pública enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579605287,
+                    "creation_date": "2021-08-18T13:07:09.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579605288,
+                    "creation_date": "2021-08-18T13:07:09.000Z",
+                    "type": {
+                        "id": 20,
+                        "name": "resposta pública enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579625002,
+                    "creation_date": "2021-08-18T13:41:40.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579625003,
+                    "creation_date": "2021-08-18T13:41:40.000Z",
+                    "type": {
+                        "id": 20,
+                        "name": "resposta pública enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579692523,
+                    "creation_date": "2021-08-18T15:27:48.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579692524,
+                    "creation_date": "2021-08-18T15:27:48.000Z",
+                    "type": {
+                        "id": 20,
+                        "name": "resposta pública enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579814855,
+                    "creation_date": "2021-08-18T19:31:03.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579814856,
+                    "creation_date": "2021-08-18T19:31:03.000Z",
+                    "type": {
+                        "id": 20,
+                        "name": "resposta pública enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579820809,
+                    "creation_date": "2021-08-18T19:41:24.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579820810,
+                    "creation_date": "2021-08-18T19:41:24.000Z",
+                    "type": {
+                        "id": 20,
+                        "name": "resposta pública enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579820932,
+                    "creation_date": "2021-08-18T19:41:31.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579820933,
+                    "creation_date": "2021-08-18T19:41:31.000Z",
+                    "type": {
+                        "id": 20,
+                        "name": "resposta pública enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579821013,
+                    "creation_date": "2021-08-18T19:41:40.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579821014,
+                    "creation_date": "2021-08-18T19:41:40.000Z",
+                    "type": {
+                        "id": 20,
+                        "name": "resposta pública enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579821067,
+                    "creation_date": "2021-08-18T19:41:48.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579821068,
+                    "creation_date": "2021-08-18T19:41:48.000Z",
+                    "type": {
+                        "id": 20,
+                        "name": "resposta pública enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579825465,
+                    "creation_date": "2021-08-18T19:50:20.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579825466,
+                    "creation_date": "2021-08-18T19:50:20.000Z",
+                    "type": {
+                        "id": 20,
+                        "name": "resposta pública enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579825670,
+                    "creation_date": "2021-08-18T19:50:51.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579825671,
+                    "creation_date": "2021-08-18T19:50:51.000Z",
+                    "type": {
+                        "id": 20,
+                        "name": "resposta pública enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579830531,
+                    "creation_date": "2021-08-18T20:00:46.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579830532,
+                    "creation_date": "2021-08-18T20:00:46.000Z",
+                    "type": {
+                        "id": 20,
+                        "name": "resposta pública enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579831023,
+                    "creation_date": "2021-08-18T20:01:27.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579831024,
+                    "creation_date": "2021-08-18T20:01:27.000Z",
+                    "type": {
+                        "id": 20,
+                        "name": "resposta pública enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579906655,
+                    "creation_date": "2021-08-19T01:22:31.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579906656,
+                    "creation_date": "2021-08-19T01:22:31.000Z",
+                    "type": {
+                        "id": 20,
+                        "name": "resposta pública enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579908467,
+                    "creation_date": "2021-08-19T01:43:11.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579908468,
+                    "creation_date": "2021-08-19T01:43:11.000Z",
+                    "type": {
+                        "id": 20,
+                        "name": "resposta pública enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579960616,
+                    "creation_date": "2021-08-19T12:26:11.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579960617,
+                    "creation_date": "2021-08-19T12:26:11.000Z",
+                    "type": {
+                        "id": 20,
+                        "name": "resposta pública enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579978482,
+                    "creation_date": "2021-08-19T12:51:57.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579978483,
+                    "creation_date": "2021-08-19T12:51:57.000Z",
+                    "type": {
+                        "id": 20,
+                        "name": "resposta pública enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579993399,
+                    "creation_date": "2021-08-19T13:12:26.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579993400,
+                    "creation_date": "2021-08-19T13:12:26.000Z",
+                    "type": {
+                        "id": 20,
+                        "name": "resposta pública enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579993678,
+                    "creation_date": "2021-08-19T13:12:54.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 579993679,
+                    "creation_date": "2021-08-19T13:12:54.000Z",
+                    "type": {
+                        "id": 20,
+                        "name": "resposta pública enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580066887,
+                    "creation_date": "2021-08-19T14:58:24.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580066888,
+                    "creation_date": "2021-08-19T14:58:24.000Z",
+                    "type": {
+                        "id": 20,
+                        "name": "resposta pública enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580164121,
+                    "creation_date": "2021-08-19T18:21:57.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580164122,
+                    "creation_date": "2021-08-19T18:21:57.000Z",
+                    "type": {
+                        "id": 21,
+                        "name": "resposta privada enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580217462,
+                    "creation_date": "2021-08-19T20:10:31.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580217463,
+                    "creation_date": "2021-08-19T20:10:31.000Z",
+                    "type": {
+                        "id": 21,
+                        "name": "resposta privada enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580220227,
+                    "creation_date": "2021-08-19T20:16:21.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580220228,
+                    "creation_date": "2021-08-19T20:16:21.000Z",
+                    "type": {
+                        "id": 21,
+                        "name": "resposta privada enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580291809,
+                    "creation_date": "2021-08-20T02:08:50.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580291810,
+                    "creation_date": "2021-08-20T02:08:50.000Z",
+                    "type": {
+                        "id": 15,
+                        "name": "moderação"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580296599,
+                    "creation_date": "2021-08-20T04:14:16.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580296600,
+                    "creation_date": "2021-08-20T04:14:16.000Z",
+                    "type": {
+                        "id": 21,
+                        "name": "resposta privada enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580296620,
+                    "creation_date": "2021-08-20T04:14:26.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580296621,
+                    "creation_date": "2021-08-20T04:14:26.000Z",
+                    "type": {
+                        "id": 20,
+                        "name": "resposta pública enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580296648,
+                    "creation_date": "2021-08-20T04:15:08.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580296649,
+                    "creation_date": "2021-08-20T04:15:08.000Z",
+                    "type": {
+                        "id": 21,
+                        "name": "resposta privada enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580640612,
+                    "creation_date": "2021-08-21T03:02:34.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580640613,
+                    "creation_date": "2021-08-21T03:02:34.000Z",
+                    "type": {
+                        "id": 21,
+                        "name": "resposta privada enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580640875,
+                    "creation_date": "2021-08-21T03:07:33.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580640876,
+                    "creation_date": "2021-08-21T03:07:33.000Z",
+                    "type": {
+                        "id": 21,
+                        "name": "resposta privada enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580640879,
+                    "creation_date": "2021-08-21T03:08:15.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580640880,
+                    "creation_date": "2021-08-21T03:08:15.000Z",
+                    "type": {
+                        "id": 21,
+                        "name": "resposta privada enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580641016,
+                    "creation_date": "2021-08-21T03:12:40.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580641017,
+                    "creation_date": "2021-08-21T03:12:40.000Z",
+                    "type": {
+                        "id": 21,
+                        "name": "resposta privada enviada"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580641019,
+                    "creation_date": "2021-08-21T03:13:26.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 580641020,
+                    "creation_date": "2021-08-21T03:13:26.000Z",
+                    "type": {
+                        "id": 21,
+                        "name": "resposta privada enviada"
+                    }
+                }
+            ],
+            "interactions": [
+                {
+                    "ticket_interaction_id": "169788611",
+                    "ticket_interaction_type_id": 1,
+                    "ticket_interaction_name": "Manifestação",
+                    "customer_id": "59483267",
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Recebi um produto com muitas falhas de produção e estou com dúvida sobre sua autenticidade. Questionei a loja sobre a originalidade do produto há 2 semanas e não obtive resposta alguma.",
+                    "privacy": false,
+                    "creation_date": "2021-08-04T15:50:48.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "377093800",
+                            "ticket_detail_type_id": 1,
+                            "name": "Assunto",
+                            "value": "Outros",
+                            "code": null,
+                            "creation_date": "2021-08-04T15:50:48.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "377093801",
+                            "ticket_detail_type_id": 14,
+                            "name": "Assunto ID",
+                            "value": "27",
+                            "code": null,
+                            "creation_date": "2021-08-04T15:50:48.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "377093802",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "187.3.219.166",
+                            "code": null,
+                            "creation_date": "2021-08-04T15:50:48.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "377093803",
+                            "ticket_detail_type_id": 3,
+                            "name": "Contato 1",
+                            "value": "11966266400",
+                            "code": null,
+                            "creation_date": "2021-08-04T15:50:48.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "377093804",
+                            "ticket_detail_type_id": 25,
+                            "name": "ID Site RA",
+                            "value": "Lul5VP2oJPbx5FfP",
+                            "code": null,
+                            "creation_date": "2021-08-04T15:52:46.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171150043",
+                    "ticket_interaction_type_id": 2,
+                    "ticket_interaction_name": "Resposta",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Lorem ipsum",
+                    "privacy": false,
+                    "creation_date": "2021-08-16T15:13:03.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "380887254",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "187.3.219.166",
+                            "code": null,
+                            "creation_date": "2021-08-16T15:12:58.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171408137",
+                    "ticket_interaction_type_id": 2,
+                    "ticket_interaction_name": "Resposta",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Lorem ipsum",
+                    "privacy": false,
+                    "creation_date": "2021-08-18T13:07:13.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "381478344",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "179.232.202.86",
+                            "code": null,
+                            "creation_date": "2021-08-18T13:07:09.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171414570",
+                    "ticket_interaction_type_id": 2,
+                    "ticket_interaction_name": "Resposta",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Lorem ipsum",
+                    "privacy": false,
+                    "creation_date": "2021-08-18T13:41:44.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "381491801",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "179.232.202.86",
+                            "code": null,
+                            "creation_date": "2021-08-18T13:41:40.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171435528",
+                    "ticket_interaction_type_id": 2,
+                    "ticket_interaction_name": "Resposta",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Lorem ipsum",
+                    "privacy": false,
+                    "creation_date": "2021-08-18T15:27:53.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "381535238",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "187.3.219.166",
+                            "code": null,
+                            "creation_date": "2021-08-18T15:27:48.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171478304",
+                    "ticket_interaction_type_id": 2,
+                    "ticket_interaction_name": "Resposta",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Lorem ipsum",
+                    "privacy": false,
+                    "creation_date": "2021-08-18T19:31:08.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "381619102",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "179.232.202.86",
+                            "code": null,
+                            "creation_date": "2021-08-18T19:31:03.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171480354",
+                    "ticket_interaction_type_id": 2,
+                    "ticket_interaction_name": "Resposta",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Lorem Ipsum",
+                    "privacy": false,
+                    "creation_date": "2021-08-18T19:41:28.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "381623188",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "187.3.219.166",
+                            "code": null,
+                            "creation_date": "2021-08-18T19:41:24.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171480400",
+                    "ticket_interaction_type_id": 2,
+                    "ticket_interaction_name": "Resposta",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Lorem Ipsum",
+                    "privacy": false,
+                    "creation_date": "2021-08-18T19:41:35.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "381623356",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "187.3.219.166",
+                            "code": null,
+                            "creation_date": "2021-08-18T19:41:31.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171480422",
+                    "ticket_interaction_type_id": 2,
+                    "ticket_interaction_name": "Resposta",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Teste",
+                    "privacy": false,
+                    "creation_date": "2021-08-18T19:41:44.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "381623384",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "187.3.219.166",
+                            "code": null,
+                            "creation_date": "2021-08-18T19:41:39.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171480445",
+                    "ticket_interaction_type_id": 2,
+                    "ticket_interaction_name": "Resposta",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Teste Raw Request",
+                    "privacy": false,
+                    "creation_date": "2021-08-18T19:41:52.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "381623405",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "187.3.219.166",
+                            "code": null,
+                            "creation_date": "2021-08-18T19:41:47.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171481963",
+                    "ticket_interaction_type_id": 2,
+                    "ticket_interaction_name": "Resposta",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Filipe",
+                    "privacy": false,
+                    "creation_date": "2021-08-18T19:50:25.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "381626353",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "179.232.202.86",
+                            "code": null,
+                            "creation_date": "2021-08-18T19:50:20.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171482023",
+                    "ticket_interaction_type_id": 2,
+                    "ticket_interaction_name": "Resposta",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Filipe Salesforce",
+                    "privacy": false,
+                    "creation_date": "2021-08-18T19:50:55.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "381626425",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "13.108.254.8",
+                            "code": null,
+                            "creation_date": "2021-08-18T19:50:50.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171483656",
+                    "ticket_interaction_type_id": 2,
+                    "ticket_interaction_name": "Resposta",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Filipe",
+                    "privacy": false,
+                    "creation_date": "2021-08-18T20:00:51.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "381629554",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "13.108.254.8",
+                            "code": null,
+                            "creation_date": "2021-08-18T20:00:46.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171483829",
+                    "ticket_interaction_type_id": 2,
+                    "ticket_interaction_name": "Resposta",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Teste Raw Request",
+                    "privacy": false,
+                    "creation_date": "2021-08-18T20:01:31.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "381630131",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "187.3.219.166",
+                            "code": null,
+                            "creation_date": "2021-08-18T20:01:27.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171510433",
+                    "ticket_interaction_type_id": 2,
+                    "ticket_interaction_name": "Resposta",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Filipe",
+                    "privacy": false,
+                    "creation_date": "2021-08-19T01:22:36.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "381693625",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "179.232.202.86",
+                            "code": null,
+                            "creation_date": "2021-08-19T01:22:31.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171511148",
+                    "ticket_interaction_type_id": 2,
+                    "ticket_interaction_name": "Resposta",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Filipe",
+                    "privacy": false,
+                    "creation_date": "2021-08-19T01:43:16.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "381696110",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "13.108.254.8",
+                            "code": null,
+                            "creation_date": "2021-08-19T01:43:11.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171527354",
+                    "ticket_interaction_type_id": 2,
+                    "ticket_interaction_name": "Resposta",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Filipe",
+                    "privacy": false,
+                    "creation_date": "2021-08-19T12:26:16.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "381736440",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "13.108.254.8",
+                            "code": null,
+                            "creation_date": "2021-08-19T12:26:11.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171534129",
+                    "ticket_interaction_type_id": 2,
+                    "ticket_interaction_name": "Resposta",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Filipe",
+                    "privacy": false,
+                    "creation_date": "2021-08-19T12:52:02.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "381753383",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "179.232.202.86",
+                            "code": null,
+                            "creation_date": "2021-08-19T12:51:57.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171540013",
+                    "ticket_interaction_type_id": 2,
+                    "ticket_interaction_name": "Resposta",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Filipe",
+                    "privacy": false,
+                    "creation_date": "2021-08-19T13:12:31.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "381767966",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "179.232.202.86",
+                            "code": null,
+                            "creation_date": "2021-08-19T13:12:26.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171540129",
+                    "ticket_interaction_type_id": 2,
+                    "ticket_interaction_name": "Resposta",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Filipe",
+                    "privacy": false,
+                    "creation_date": "2021-08-19T13:12:59.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "381768265",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "13.108.254.8",
+                            "code": null,
+                            "creation_date": "2021-08-19T13:12:54.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171570226",
+                    "ticket_interaction_type_id": 2,
+                    "ticket_interaction_name": "Resposta",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Filipe",
+                    "privacy": false,
+                    "creation_date": "2021-08-19T14:58:28.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "381839795",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "179.232.202.86",
+                            "code": null,
+                            "creation_date": "2021-08-19T14:58:23.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171604703",
+                    "ticket_interaction_type_id": 3,
+                    "ticket_interaction_name": "Mensagem privada - Empresa",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "lorem ipsum",
+                    "privacy": false,
+                    "creation_date": "2021-08-19T18:21:56.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "381909258",
+                            "ticket_detail_type_id": 15,
+                            "name": "Anexo",
+                            "value": "https://s3-sa-east-1.amazonaws.com/hugme-ra/mensagens_privada/6d36698fab03f9ee9b9cdf3d0c6fe982.docx",
+                            "code": null,
+                            "creation_date": "2021-08-19T18:21:56.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "381909259",
+                            "ticket_detail_type_id": 34,
+                            "name": "Email",
+                            "value": "filipe.zanin@nescara.com",
+                            "code": null,
+                            "creation_date": "2021-08-19T18:21:56.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171623457",
+                    "ticket_interaction_type_id": 3,
+                    "ticket_interaction_name": "Mensagem privada - Empresa",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "lorem ipsum",
+                    "privacy": false,
+                    "creation_date": "2021-08-19T20:10:30.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "381945090",
+                            "ticket_detail_type_id": 15,
+                            "name": "Anexo",
+                            "value": "https://s3-sa-east-1.amazonaws.com/hugme-ra/mensagens_privada/674323844006c0c2c1ea1b4159e58c4d.docx",
+                            "code": null,
+                            "creation_date": "2021-08-19T20:10:30.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "381945091",
+                            "ticket_detail_type_id": 34,
+                            "name": "Email",
+                            "value": "filipe.zanin@nescara.com",
+                            "code": null,
+                            "creation_date": "2021-08-19T20:10:30.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171624401",
+                    "ticket_interaction_type_id": 3,
+                    "ticket_interaction_name": "Mensagem privada - Empresa",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "lorem ipsum",
+                    "privacy": false,
+                    "creation_date": "2021-08-19T20:16:20.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "381946922",
+                            "ticket_detail_type_id": 15,
+                            "name": "Anexo",
+                            "value": "https://s3-sa-east-1.amazonaws.com/hugme-ra/mensagens_privada/37293c84f76edd9fee334b6512c58cc1.docx",
+                            "code": null,
+                            "creation_date": "2021-08-19T20:16:20.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "381946923",
+                            "ticket_detail_type_id": 34,
+                            "name": "Email",
+                            "value": "filipe.zanin@nescara.com",
+                            "code": null,
+                            "creation_date": "2021-08-19T20:16:20.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171649319",
+                    "ticket_interaction_type_id": 8,
+                    "ticket_interaction_name": "Pedido de Mediação ",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Mensagem",
+                    "privacy": false,
+                    "creation_date": "2021-08-20T02:08:54.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "382008601",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "179.232.202.86",
+                            "code": null,
+                            "creation_date": "2021-08-20T02:08:49.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "382008602",
+                            "ticket_detail_type_id": 36,
+                            "name": "migrar",
+                            "value": "-1",
+                            "code": null,
+                            "creation_date": "2021-08-20T02:08:49.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "382008603",
+                            "ticket_detail_type_id": 12,
+                            "name": "Motivo ID",
+                            "value": "15",
+                            "code": null,
+                            "creation_date": "2021-08-20T02:08:49.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "382008604",
+                            "ticket_detail_type_id": 9,
+                            "name": "Motivo",
+                            "value": "Reclamação de Terceiros",
+                            "code": null,
+                            "creation_date": "2021-08-20T02:08:49.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "382008605",
+                            "ticket_detail_type_id": 15,
+                            "name": "Anexo",
+                            "value": "https://s3-sa-east-1.amazonaws.com/hugme-ra/mediacoes/d51b7f688834907b62fef489732618b9.jpg",
+                            "code": null,
+                            "creation_date": "2021-08-20T02:08:50.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171651171",
+                    "ticket_interaction_type_id": 3,
+                    "ticket_interaction_name": "Mensagem privada - Empresa",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "lorem ipsum",
+                    "privacy": false,
+                    "creation_date": "2021-08-20T04:14:15.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "382015448",
+                            "ticket_detail_type_id": 15,
+                            "name": "Anexo",
+                            "value": "https://s3-sa-east-1.amazonaws.com/hugme-ra/mensagens_privada/9e42421f719bb5dd76cc93db4083929c.docx",
+                            "code": null,
+                            "creation_date": "2021-08-20T04:14:15.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "382015449",
+                            "ticket_detail_type_id": 34,
+                            "name": "Email",
+                            "value": "filipe.zanin@nescara.com",
+                            "code": null,
+                            "creation_date": "2021-08-20T04:14:15.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171651183",
+                    "ticket_interaction_type_id": 2,
+                    "ticket_interaction_name": "Resposta",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Filipe",
+                    "privacy": false,
+                    "creation_date": "2021-08-20T04:30:00.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "382015516",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "179.232.202.86",
+                            "code": null,
+                            "creation_date": "2021-08-20T04:14:26.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171651193",
+                    "ticket_interaction_type_id": 3,
+                    "ticket_interaction_name": "Mensagem privada - Empresa",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "lorem ipsum",
+                    "privacy": false,
+                    "creation_date": "2021-08-20T04:15:07.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "382015542",
+                            "ticket_detail_type_id": 15,
+                            "name": "Anexo",
+                            "value": "https://s3-sa-east-1.amazonaws.com/hugme-ra/mensagens_privada/108b44abdf18755667a7a6417e2fb3da.docx",
+                            "code": null,
+                            "creation_date": "2021-08-20T04:15:07.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "382015543",
+                            "ticket_detail_type_id": 34,
+                            "name": "Email",
+                            "value": "filipe.zanin@nescara.com",
+                            "code": null,
+                            "creation_date": "2021-08-20T04:15:07.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171765075",
+                    "ticket_interaction_type_id": 3,
+                    "ticket_interaction_name": "Mensagem privada - Empresa",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "lorem ipsum",
+                    "privacy": false,
+                    "creation_date": "2021-08-21T03:02:33.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "382256826",
+                            "ticket_detail_type_id": 34,
+                            "name": "Email",
+                            "value": "filipe.zanin@nescara.com",
+                            "code": null,
+                            "creation_date": "2021-08-21T03:02:33.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171765138",
+                    "ticket_interaction_type_id": 3,
+                    "ticket_interaction_name": "Mensagem privada - Empresa",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "lorem ipsum",
+                    "privacy": false,
+                    "creation_date": "2021-08-21T03:07:32.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "382257032",
+                            "ticket_detail_type_id": 34,
+                            "name": "Email",
+                            "value": "filipe.zanin@nescara.com",
+                            "code": null,
+                            "creation_date": "2021-08-21T03:07:32.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171765141",
+                    "ticket_interaction_type_id": 3,
+                    "ticket_interaction_name": "Mensagem privada - Empresa",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "lorem ipsum",
+                    "privacy": false,
+                    "creation_date": "2021-08-21T03:08:14.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "382257035",
+                            "ticket_detail_type_id": 15,
+                            "name": "Anexo",
+                            "value": "https://s3-sa-east-1.amazonaws.com/hugme-ra/mensagens_privada/3f979efff8d998fc685e4e497784b143.jpg",
+                            "code": null,
+                            "creation_date": "2021-08-21T03:08:14.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "382257036",
+                            "ticket_detail_type_id": 34,
+                            "name": "Email",
+                            "value": "filipe.zanin@nescara.com",
+                            "code": null,
+                            "creation_date": "2021-08-21T03:08:14.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171765196",
+                    "ticket_interaction_type_id": 3,
+                    "ticket_interaction_name": "Mensagem privada - Empresa",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "mensagem nova",
+                    "privacy": false,
+                    "creation_date": "2021-08-21T03:12:39.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "382257281",
+                            "ticket_detail_type_id": 15,
+                            "name": "Anexo",
+                            "value": "https://s3-sa-east-1.amazonaws.com/hugme-ra/mensagens_privada/d2f89f27c60948e6d564f32419dd771f.jpg",
+                            "code": null,
+                            "creation_date": "2021-08-21T03:12:39.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "382257282",
+                            "ticket_detail_type_id": 34,
+                            "name": "Email",
+                            "value": "daniel@nescara.com",
+                            "code": null,
+                            "creation_date": "2021-08-21T03:12:39.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                },
+                {
+                    "ticket_interaction_id": "171765198",
+                    "ticket_interaction_type_id": 3,
+                    "ticket_interaction_name": "Mensagem privada - Empresa",
+                    "customer_id": null,
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "mensagem nova",
+                    "privacy": false,
+                    "creation_date": "2021-08-21T03:13:25.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "382257283",
+                            "ticket_detail_type_id": 15,
+                            "name": "Anexo",
+                            "value": "https://s3-sa-east-1.amazonaws.com/hugme-ra/mensagens_privada/25108e02d3d148a6ce145f9c150b63ee.jpg",
+                            "code": null,
+                            "creation_date": "2021-08-21T03:13:25.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "382257284",
+                            "ticket_detail_type_id": 34,
+                            "name": "Email",
+                            "value": "daniel@nescara.com",
+                            "code": null,
+                            "creation_date": "2021-08-21T03:13:25.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                }
+            ],
+            "active": true,
+            "duplicate_tiqt": []
+        },
+        {
+            "hugme_status": {
+                "id": 21,
+                "name": "Novo"
+            },
+            "ra_status": {
+                "id": 5,
+                "name": "Não respondido"
+            },
+            "favorable_assessment": {
+                "id": 0,
+                "description": "Não Solicitado"
+            },
+            "information_source": {
+                "id": 1,
+                "name": "RA Reclamação"
+            },
+            "source": {
+                "id": 1,
+                "name": "ReclameAQUI"
+            },
+            "company": {
+                "id": 2462,
+                "name": "Koala Testes (63) 14072021"
+            },
+            "last_feeling": {
+                "id": -1,
+                "name": null
+            },
+            "feed_type": {
+                "id": -1,
+                "name": null
+            },
+            "moderation": {
+                "user": {
+                    "id": -1,
+                    "name": null
+                },
+                "status": null,
+                "reason": null,
+                "request_date": null,
+                "response_date": null
+            },
+            "ra": {
+                "replicas_count": 0,
+                "source_id": 1,
+                "source_name": "Site",
+                "deactivation_date": null,
+                "deactivation_reason": null,
+                "internal_process": true,
+                "blackfriday": false
+            },
+            "customer": {
+                "birthday": [
+                    "1997-12-02T00:00:00.000Z"
+                ],
+                "cpf": [
+                    "47595533805"
+                ],
+                "rg": [],
+                "gender": [
+                    "Masculino"
+                ],
+                "email": [
+                    "joao_slc@hotmail.com.br"
+                ],
+                "phone_numbers": [
+                    "11966266400",
+                    "11966266400"
+                ],
+                "photo": [],
+                "id": 59483267,
+                "duplicate_id": -1,
+                "name": "João Pedro de Souza Lima Cruz",
+                "cnpj": [],
+                "company_name": "[]",
+                "city": [
+                    {
+                        "id": -1,
+                        "name": null
+                    }
+                ],
+                "state": [
+                    {
+                        "id": 26,
+                        "name": "São Paulo",
+                        "fs": "SP"
+                    }
+                ],
+                "type": "Private Person",
+                "tags": [],
+                "pending_tickets_count": 0
+            },
+            "user": {
+                "id": -1,
+                "name": null
+            },
+            "account": {
+                "id": -1,
+                "name": null
+            },
+            "rafone": {
+                "expiration_date": null,
+                "status_id": -1,
+                "status_name": null
+            },
+            "_id": "611a7ed9bbd51c53865d71fa",
+            "id": 45971717,
+            "source_external_id": "128178017",
+            "can_like": false,
+            "commentary": false,
+            "creation_date": "2021-08-16T15:03:33.000Z",
+            "insertion_date": "2021-08-16T15:05:26.000Z",
+            "complaint_title": "Teste 2",
+            "filed": false,
+            "last_modification_date": "2021-08-16T15:06:03.000Z",
+            "closed_date": null,
+            "request_moderation": true,
+            "request_evaluation": false,
+            "frozen": false,
+            "complaint_content": "Conte a sua história - Teste 2",
+            "ra_reason": "Outros",
+            "ra_feeling": null,
+            "complaint_response_content": null,
+            "complaint_response_date": null,
+            "interactions_count": 1,
+            "interactions_not_readed_count": 5,
+            "resolved_issue": false,
+            "back_doing_business": false,
+            "consumer_consideration": null,
+            "consumer_consideration_date": null,
+            "company_consideration": null,
+            "company_consideration_date": null,
+            "private_treatment_time": null,
+            "public_treatment_time": null,
+            "rating_time": null,
+            "rating": "-1",
+            "rating_date": null,
+            "comments_count": 0,
+            "redistributions_count": 0,
+            "redistributions_reason": null,
+            "ticket_moderations_count": 0,
+            "ticket_messages_count": 0,
+            "last_replica_date": null,
+            "contact_us": null,
+            "rating_without_response": false,
+            "hugme_ticket_type": null,
+            "customer_interactions_count": 5,
+            "company_interactions_count": 0,
+            "assignment_count": 0,
+            "rule_id": 7868,
+            "duplicate_ticket": [],
+            "tags": [],
+            "extra_data": {},
+            "sticky_notes": [],
+            "autos": [],
+            "personalized_fields": [],
+            "attached": [],
+            "categories": [],
+            "historical": [
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 578876053,
+                    "creation_date": "2021-08-16T15:05:27.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 578876054,
+                    "creation_date": "2021-08-16T15:05:27.000Z",
+                    "type": {
+                        "id": 1,
+                        "name": "CRIACAO"
+                    }
+                }
+            ],
+            "interactions": [
+                {
+                    "ticket_interaction_id": "171148535",
+                    "ticket_interaction_type_id": 1,
+                    "ticket_interaction_name": "Manifestação",
+                    "customer_id": "59483267",
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Conte a sua história - Teste 2",
+                    "privacy": false,
+                    "creation_date": "2021-08-16T15:03:33.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "380884209",
+                            "ticket_detail_type_id": 1,
+                            "name": "Assunto",
+                            "value": "Outros",
+                            "code": null,
+                            "creation_date": "2021-08-16T15:03:33.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "380884210",
+                            "ticket_detail_type_id": 14,
+                            "name": "Assunto ID",
+                            "value": "27",
+                            "code": null,
+                            "creation_date": "2021-08-16T15:03:33.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "380884211",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "187.3.219.166",
+                            "code": null,
+                            "creation_date": "2021-08-16T15:03:33.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "380884212",
+                            "ticket_detail_type_id": 3,
+                            "name": "Contato 1",
+                            "value": "11966266400",
+                            "code": null,
+                            "creation_date": "2021-08-16T15:03:33.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "380884213",
+                            "ticket_detail_type_id": 25,
+                            "name": "ID Site RA",
+                            "value": "cYS5mxvXBoAiBrzU",
+                            "code": null,
+                            "creation_date": "2021-08-16T15:05:27.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                }
+            ],
+            "active": true,
+            "duplicate_tiqt": []
+        },
+        {
+            "hugme_status": {
+                "id": 21,
+                "name": "Novo"
+            },
+            "ra_status": {
+                "id": 5,
+                "name": "Não respondido"
+            },
+            "favorable_assessment": {
+                "id": 0,
+                "description": "Não Solicitado"
+            },
+            "information_source": {
+                "id": 1,
+                "name": "RA Reclamação"
+            },
+            "source": {
+                "id": 1,
+                "name": "ReclameAQUI"
+            },
+            "company": {
+                "id": 2462,
+                "name": "Koala Testes (63) 14072021"
+            },
+            "last_feeling": {
+                "id": -1,
+                "name": null
+            },
+            "feed_type": {
+                "id": -1,
+                "name": null
+            },
+            "moderation": {
+                "user": {
+                    "id": -1,
+                    "name": null
+                },
+                "status": null,
+                "reason": null,
+                "request_date": null,
+                "response_date": null
+            },
+            "ra": {
+                "replicas_count": 0,
+                "source_id": 1,
+                "source_name": "Site",
+                "deactivation_date": null,
+                "deactivation_reason": null,
+                "internal_process": true,
+                "blackfriday": false
+            },
+            "customer": {
+                "birthday": [
+                    "1980-07-26T00:00:00.000Z"
+                ],
+                "cpf": [
+                    "27714091860"
+                ],
+                "rg": [],
+                "gender": [
+                    "Feminino"
+                ],
+                "email": [
+                    "filejuzani01@gmail.com"
+                ],
+                "phone_numbers": [
+                    "43996612319",
+                    "43996612319"
+                ],
+                "photo": [],
+                "id": 59892388,
+                "duplicate_id": -1,
+                "name": "ANGELA ZANIN",
+                "cnpj": [],
+                "company_name": "[]",
+                "city": [
+                    {
+                        "id": 1867,
+                        "name": "Londrina"
+                    }
+                ],
+                "state": [
+                    {
+                        "id": 18,
+                        "name": "Paraná",
+                        "fs": "PR"
+                    }
+                ],
+                "type": "Private Person",
+                "tags": [],
+                "pending_tickets_count": 0
+            },
+            "user": {
+                "id": -1,
+                "name": null
+            },
+            "account": {
+                "id": -1,
+                "name": null
+            },
+            "rafone": {
+                "expiration_date": null,
+                "status_id": -1,
+                "status_name": null
+            },
+            "_id": "611aa3b4bbd51c5386d5af99",
+            "id": 45976219,
+            "source_external_id": "128189759",
+            "can_like": false,
+            "commentary": false,
+            "creation_date": "2021-08-16T17:42:17.000Z",
+            "insertion_date": "2021-08-16T17:42:54.000Z",
+            "complaint_title": "Teste 03",
+            "filed": false,
+            "last_modification_date": "2021-08-16T17:43:00.000Z",
+            "closed_date": null,
+            "request_moderation": true,
+            "request_evaluation": false,
+            "frozen": false,
+            "complaint_content": "Conte a sua história - Teste 03",
+            "ra_reason": "Outros",
+            "ra_feeling": null,
+            "complaint_response_content": null,
+            "complaint_response_date": null,
+            "interactions_count": 1,
+            "interactions_not_readed_count": 5,
+            "resolved_issue": false,
+            "back_doing_business": false,
+            "consumer_consideration": null,
+            "consumer_consideration_date": null,
+            "company_consideration": null,
+            "company_consideration_date": null,
+            "private_treatment_time": null,
+            "public_treatment_time": null,
+            "rating_time": null,
+            "rating": "-1",
+            "rating_date": null,
+            "comments_count": 0,
+            "redistributions_count": 0,
+            "redistributions_reason": null,
+            "ticket_moderations_count": 0,
+            "ticket_messages_count": 0,
+            "last_replica_date": null,
+            "contact_us": null,
+            "rating_without_response": false,
+            "hugme_ticket_type": null,
+            "customer_interactions_count": 5,
+            "company_interactions_count": 0,
+            "assignment_count": 0,
+            "rule_id": 7868,
+            "duplicate_ticket": [],
+            "tags": [],
+            "extra_data": {},
+            "sticky_notes": [],
+            "autos": [],
+            "personalized_fields": [],
+            "attached": [],
+            "categories": [],
+            "historical": [
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 578954161,
+                    "creation_date": "2021-08-16T17:42:54.000Z",
+                    "type": {
+                        "id": 4,
+                        "name": "INTERACAO"
+                    }
+                },
+                {
+                    "user": {
+                        "id": -1,
+                        "name": null,
+                        "email": null
+                    },
+                    "auto": {
+                        "id": -1,
+                        "name": null
+                    },
+                    "id": 578954162,
+                    "creation_date": "2021-08-16T17:42:54.000Z",
+                    "type": {
+                        "id": 1,
+                        "name": "CRIACAO"
+                    }
+                }
+            ],
+            "interactions": [
+                {
+                    "ticket_interaction_id": "171175533",
+                    "ticket_interaction_type_id": 1,
+                    "ticket_interaction_name": "Manifestação",
+                    "customer_id": "59892388",
+                    "responsible_id": null,
+                    "responsible_name": null,
+                    "message": "Conte a sua história - Teste 03",
+                    "privacy": false,
+                    "creation_date": "2021-08-16T17:42:17.000Z",
+                    "modification_date": null,
+                    "delivered": true,
+                    "readed": false,
+                    "visualized": false,
+                    "video": null,
+                    "picture": null,
+                    "details": [
+                        {
+                            "ticket_detail_id": "380939092",
+                            "ticket_detail_type_id": 1,
+                            "name": "Assunto",
+                            "value": "Outros",
+                            "code": null,
+                            "creation_date": "2021-08-16T17:42:17.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "380939094",
+                            "ticket_detail_type_id": 14,
+                            "name": "Assunto ID",
+                            "value": "27",
+                            "code": null,
+                            "creation_date": "2021-08-16T17:42:17.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "380939096",
+                            "ticket_detail_type_id": 8,
+                            "name": "IP",
+                            "value": "179.232.202.86",
+                            "code": null,
+                            "creation_date": "2021-08-16T17:42:17.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "380939097",
+                            "ticket_detail_type_id": 3,
+                            "name": "Contato 1",
+                            "value": "43996612319",
+                            "code": null,
+                            "creation_date": "2021-08-16T17:42:17.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        },
+                        {
+                            "ticket_detail_id": "380939098",
+                            "ticket_detail_type_id": 25,
+                            "name": "ID Site RA",
+                            "value": "PUp0ITsx7SQu_JZs",
+                            "code": null,
+                            "creation_date": "2021-08-16T17:42:54.000Z",
+                            "privacy": false,
+                            "modification_date": null
+                        }
+                    ]
+                }
+            ],
+            "active": true,
+            "duplicate_tiqt": []
+        }
+    ],
+    "meta": {
+        "page": {
+            "number": 1,
+            "size": 3
+        },
+        "total": 3
+    }
+}

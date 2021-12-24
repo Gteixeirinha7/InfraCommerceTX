@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LayoutCPedido</fullName>
+    <fields>OrderNumber</fields>
+    <fields>OriginOrderId__c</fields>
+    <fields>Brand__c</fields>
+    <fields>CentrodeDistribuicao__c</fields>
+    <fields>AccountId</fields>
+    <fields>Status</fields>
+    <fields>OrderTotals__c</fields>
+    <label>LayoutCPedido</label>
+</CompactLayout>

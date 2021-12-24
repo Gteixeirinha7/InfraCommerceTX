@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Layout_Compacto_NF</fullName>
+    <fields>Name</fields>
+    <fields>InvoiceNumber__c</fields>
+    <fields>InvoiceSerie__c</fields>
+    <fields>TotalFreigth__c</fields>
+    <fields>TotalInvoiceValue__c</fields>
+    <label>Layout Compacto NF</label>
+</CompactLayout>

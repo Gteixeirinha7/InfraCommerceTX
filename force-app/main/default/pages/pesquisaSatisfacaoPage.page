@@ -1,0 +1,34 @@
+<apex:page controller="PesquisaSatisfacaoController">
+    <apex:includeLightning />
+     
+    <div id="LightningAppDivId">
+        <!-- Lightning Web Component will be included here. -->
+    </div>
+ 
+     <script>
+         $Lightning.use(
+             "c:LightningOutApp", // Name of Aura Dependency app where c is namespace.
+             function() { // Callback function
+                 $Lightning.createComponent(
+                     "c:pesquisaSatisfacaoLWC", // Name of Lightning Component where c is namespace.
+                     {}, // attribute parameters
+                     "LightningAppDivId" // Id of the element where Lightning Component will be rendered.
+                 );
+             }
+         );
+     </script>
+
+     <style>
+        html, body { 
+            height: 100%;
+        }
+
+        #LightningAppDivId {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+     </style>
+</apex:page>

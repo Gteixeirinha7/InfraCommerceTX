@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DataConclusao__c</fullName>
+    <description>Data de Conclusão da Tarefa.</description>
+    <externalId>false</externalId>
+    <label>Data de Conclusão</label>
+    <required>false</required>
+    <type>DateTime</type>
+</CustomField>

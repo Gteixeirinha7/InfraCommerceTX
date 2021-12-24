@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TotalItems__c</fullName>
+    <description>Valor de soma do campo Preco__c do itens do pedido.</description>
+    <externalId>false</externalId>
+    <label>Valor Bruto dos Produtos</label>
+    <summarizedField>OrderItem.Preco__c</summarizedField>
+    <summaryForeignKey>OrderItem.OrderId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

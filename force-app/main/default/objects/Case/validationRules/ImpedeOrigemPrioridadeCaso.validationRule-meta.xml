@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ImpedeOrigemPrioridadeCaso</fullName>
+    <active>true</active>
+    <description>Validação que impede o Perfil Atendente de editar o campo Origem e Prioridade após o cadastro.</description>
+    <errorConditionFormula>AND(
+  $Profile.Name = &quot;Atendente&quot;,
+  NOT(ISNEW()),
+  OR (ISCHANGED( Origin ),ISCHANGED( Priority ) )
+)</errorConditionFormula>
+    <errorMessage>Os campos Origem e Prioridade não podem ser editados após o cadastro do caso.</errorMessage>
+</ValidationRule>

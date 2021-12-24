@@ -1,0 +1,21 @@
+.infos{
+    width: 150px;
+    margin-left: 5px;
+}
+.linha-1{
+    width: 50%;
+}
+.linha-2{
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -248px;
+}
+.linha-3{
+    width: 50%;
+}
+.linha-4{
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -248px;
+    margin-bottom: 50px;
+}

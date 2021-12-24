@@ -1,0 +1,90 @@
+<template>
+    <div class="slds-grid slds-gutters">
+        <div class="slds-col slds-size_3-of-3" data-name="left_div">
+            <lightning-card>
+                <template if:true={isLoadingProducts}>
+                    <div class="exampleHolder">
+                        <lightning-spinner alternative-text="Loading" size="small"></lightning-spinner>
+                    </div>
+                </template>
+                <div class="slds-card__body" style="padding:15px;">
+                    <div>
+                        <div class="slds-text-align_center slds-text-heading_large">Consultar Estoque</div>
+                    </div>
+                    <div class="slds-grid slds-wrap slds-glutters">
+                        <div class="slds-col slds-size_12-of-12 slds-medium-size_4-of-12" style="padding:5px;">
+                            <lightning-input label="Procurar produto" placeholder="Digite o nome do produto"
+                                type="search" variant="standard" name="searchProduct" onkeyup={onChangeSearchProductName}>
+                            </lightning-input>
+                        </div>
+                    </div>
+                </div>
+                <!-- <template if:true={prodFilterList}>
+                    <template for:each={prodFilterList} for:item="prod">
+                        <div class="slds-section slds-is-open slds-card " data-name="divAllProducts"
+                            style="padding:15px; border-radius: 5px 5px 0px 0px;margin-bottom: 30px;box-shadow: 0 0 3px rgb(0 0 0 / 10%);border-bottom: 3px solid #0070d2; border-top: 1px solid #ddd; border-right: 1px solid #ddd; border-left: 1px solid #ddd;"
+                            key={prod.id}>                               
+                            <div data-name="divAllProducts" style="margin:auto;display:flex;justify-content:space-between"                                    
+                                data-product-id={prod.id} data-product-name={prod.name} data-product-code={prod.sku} data-product-malha="false" onclick={handleSelectedProduct}>
+                                <div class="slds-media__figure slds-col slds-size_1-of-12">
+                                    <div style="font-size:1rem;padding: 0 0 10px 0;">
+                                        <strong>{prod.sku}</strong>
+                                    </div>
+                                </div>
+                                <div class="slds-col slds-size_6-of-12">
+                                    <div class="slds-media__body slds-col">
+                                        <lightning-layout class="slds-m-bottom_xx-small">
+                                            <lightning-layout-item>
+                                                <div style="font-size: 15px;color:#0070d2">
+                                                    <p><strong>{prod.name}</strong></p>
+                                                </div>
+                                            </lightning-layout-item>
+                                        </lightning-layout>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                </template> -->
+                <template if:true={prodFilterList}>
+                    <div class="products-view">
+                        <lightning-layout multiple-rows="true" pull-to-boundary="small">
+                            <template for:each={prodFilterList} for:item="prod">
+                                <lightning-layout-item key={prod.id} size="12" small-device-size="3" class="slds-var-p-around_x-small">
+                                    <!-- <lightning-card title={prod.name} class="bear-tile" onclick={handleCardClick} data-comment-id={prod.id}>
+                                        <div class="slds-var-p-horizontal_small bear-tile-body">
+                                            <div class="slds-media">
+                                                <div class="slds-media__body">
+                                                    <p class="slds-var-m-bottom_xx-small">Sku: {prod.sku}</p>
+                                                    <p class="slds-var-m-bottom_xx-small">Quantidade em Estoque: {prod.inventoryQuantity}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </lightning-card> -->
+                                    <c-inventory-products-card
+                                        data-id={prod.Id}
+                                        data-comment-id={prod.Id}
+                                        key={prod.Id}
+                                        prod={prod}
+                                        selected={prod.isSelected}
+                                        onselect={handleCardClick}
+                                        onmouseover={handleMouseover}
+                                        onmouseout={handleMouseout}
+                                    ></c-inventory-products-card>
+                                </lightning-layout-item>
+                            </template>
+                        </lightning-layout>
+                    </div>
+                    <div class="slds-grid slds-align_absolute-center buttons-div">
+                        <div if:true={showMoreProduct}>
+                            <lightning-button-icon icon-name="utility:down" onclick={handleGetMoreProducts} size="medium" tooltip="Carregar mais produtos" class="slds-m-left_xx-small"></lightning-button-icon>
+                        </div>
+                        <div>
+                            <lightning-button variant="brand" label="Seguir com Produtos Selecionados" style="float:right;margin-left:8px;" onclick={goToOrderScreen} disabled={disabledNext}></lightning-button>
+                        </div>
+                    </div>
+                </template>
+            </lightning-card>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BusinessHoursId</fullName>
+    <inlineHelpText>Informar o horário comercial que a equipe estará disponível para atendimento, esse horário que será utilizado para cálculo do SLA.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

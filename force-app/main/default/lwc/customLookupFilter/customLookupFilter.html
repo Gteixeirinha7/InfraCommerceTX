@@ -1,0 +1,93 @@
+<template>
+    <div class="container slds-is-relative" style="width:100%;">
+      <template if:false={selectedRecord}>
+        <template if:false={disabled}>
+          <lightning-input
+            type="search"
+            class="slds-container_fluid"
+            autocomplete="off"
+            label={inputLabel}
+            name="searchInput"
+            value={searchValue}
+            onchange={handleTyping}
+            onfocus={handleFocus}
+            placeholder={placeholder}
+            is-loading={isLoading}
+            required={required}>
+          </lightning-input>
+        </template>
+        <template if:true={disabled}>
+          <lightning-input
+            type="search"
+            class="slds-container_fluid"
+            autocomplete="off"
+            label={inputLabel}
+            name="searchInput"
+            value={searchValue}
+            onchange={handleTyping}
+            placeholder={placeholder}
+            is-loading={isLoading}
+            disabled
+            required={required}>
+          </lightning-input>
+        </template>
+  
+        <template if:true={recordsList}>
+          <div class="container-records-list slds-container_fluid slds-is-absolute">
+            <ul>
+              <template for:each={recordsList} for:item="record">
+                <li
+                  key={record.id}
+                  data-value={record.id}
+                  onclick={handleSelectRecordClick}
+                  class="slds-var-p-vertical_small slds-var-p-horizontal_medium slds-list_horizontal slds-media_center list-item">
+                  <lightning-icon
+                    data-value={record.id}
+                    icon-name={objectIconName}
+                    title={objectIconName}
+                    size="small"
+                    class="slds-var-m-right_small">
+                  </lightning-icon>
+                  <h1 data-value={record.id}>{record.name}</h1>
+                </li>
+              </template>
+            </ul>
+          </div>
+        </template>
+      </template>
+  
+      <template if:true={selectedRecord}>
+        <div>
+          <label class="slds-form-element__label">
+            <abbr if:true={required} title="required" class="slds-required" style="margin-top:3px;">*</abbr>
+            {inputLabel}
+          </label>
+  
+          <div class="slds-var-p-vertical_xx-small slds-var-p-horizontal_small selected-record slds-list_horizontal slds-media_center slds-grid_align-spread" style="padding-left: 4px;padding-right: 4px;">
+            <div class="slds-list_horizontal slds-media_center slds-truncate">
+              <lightning-icon
+                icon-name={objectIconName}
+                title={objectIconName}
+                size="small"
+                class="slds-var-m-right_small">
+              </lightning-icon>
+  
+              {selectedRecord.name}
+            </div>
+            <template if:false={hideClose}>
+              <div class="slds-var-p-bottom_xx-small">
+                  <lightning-button-icon
+                    icon-name="utility:close"
+                    variant="bare"
+                    alternative-text="Settings"
+                    title="Settings"
+                    onclick={handleClearSelectedClose}
+                    disabled={disabled}>
+                  </lightning-button-icon>
+              </div>
+            </template>
+          </div>
+        </div>
+      </template>
+    </div>
+  </template>

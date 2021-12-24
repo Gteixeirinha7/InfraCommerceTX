@@ -1,0 +1,28 @@
+.container {
+  /* width: 280px; */
+  height: 60px;
+}
+
+.container-records-list {
+  z-index: 999;
+  max-height: 200px;
+  overflow-y: auto;
+  margin-top: 0.072rem;
+  border: 1px solid rgb(221, 219, 218);
+  border-radius: 0.25rem;
+  background-color: #FFF;
+}
+
+.container-records-list .list-item {
+  cursor: pointer;
+}
+
+.container-records-list .list-item:hover {
+  background-color: #f3f2f2;
+}
+
+.container .selected-record {
+  background-color: #FFF;
+  border: 1px solid rgb(221, 219, 218);
+  border-radius: 0.25rem;
+}

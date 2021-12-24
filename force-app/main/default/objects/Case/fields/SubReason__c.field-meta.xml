@@ -1,0 +1,2008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubReason__c</fullName>
+    <description>Sub-Motivo do Caso, utilizado para fins de classificação.</description>
+    <externalId>false</externalId>
+    <label>Sub-Motivo do caso</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Reason__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pedido não aprovado</fullName>
+                <default>false</default>
+                <label>Pedido não aprovado</label>
+            </value>
+            <value>
+                <fullName>Pedido cancelado parcial</fullName>
+                <default>false</default>
+                <label>Pedido cancelado parcial</label>
+            </value>
+            <value>
+                <fullName>Pedido cancelado total</fullName>
+                <default>false</default>
+                <label>Pedido cancelado total</label>
+            </value>
+            <value>
+                <fullName>Pedido não integrado</fullName>
+                <default>false</default>
+                <label>Pedido não integrado</label>
+            </value>
+            <value>
+                <fullName>Boleto não enviado</fullName>
+                <default>false</default>
+                <label>Boleto não enviado</label>
+            </value>
+            <value>
+                <fullName>Boleto não faturado</fullName>
+                <default>false</default>
+                <label>Boleto não faturado</label>
+            </value>
+            <value>
+                <fullName>Anti-fraude</fullName>
+                <default>false</default>
+                <label>Anti-fraude</label>
+            </value>
+            <value>
+                <fullName>Segunda via de boleto</fullName>
+                <default>false</default>
+                <label>Segunda via de boleto</label>
+            </value>
+            <value>
+                <fullName>Prorrogação de boleto</fullName>
+                <default>false</default>
+                <label>Prorrogação de boleto</label>
+            </value>
+            <value>
+                <fullName>Envio segunda via de nota fiscal</fullName>
+                <default>false</default>
+                <label>Envio segunda via de nota fiscal</label>
+            </value>
+            <value>
+                <fullName>Alteração de endereço</fullName>
+                <default>false</default>
+                <label>Alteração de endereço</label>
+            </value>
+            <value>
+                <fullName>Aguardando separação</fullName>
+                <default>false</default>
+                <label>Aguardando separação</label>
+            </value>
+            <value>
+                <fullName>Aguardando faturamento</fullName>
+                <default>false</default>
+                <label>Aguardando faturamento</label>
+            </value>
+            <value>
+                <fullName>Aguardando expedição</fullName>
+                <default>false</default>
+                <label>Aguardando expedição</label>
+            </value>
+            <value>
+                <fullName>Aguardando personalização</fullName>
+                <default>false</default>
+                <label>Aguardando personalização</label>
+            </value>
+            <value>
+                <fullName>Aguardando despacho</fullName>
+                <default>false</default>
+                <label>Aguardando despacho</label>
+            </value>
+            <value>
+                <fullName>Em rota dentro do prazo</fullName>
+                <default>false</default>
+                <label>Em rota dentro do prazo</label>
+            </value>
+            <value>
+                <fullName>Tracking desatualizado</fullName>
+                <default>false</default>
+                <label>Tracking desatualizado</label>
+            </value>
+            <value>
+                <fullName>Endereço insuficiente</fullName>
+                <default>false</default>
+                <label>Endereço insuficiente</label>
+            </value>
+            <value>
+                <fullName>Endereço errado</fullName>
+                <default>false</default>
+                <label>Endereço errado</label>
+            </value>
+            <value>
+                <fullName>CEP não atendido</fullName>
+                <default>false</default>
+                <label>CEP não atendido</label>
+            </value>
+            <value>
+                <fullName>Tentativa de entrega sem sucesso</fullName>
+                <default>false</default>
+                <label>Tentativa de entrega sem sucesso</label>
+            </value>
+            <value>
+                <fullName>Não reconhece a entrega</fullName>
+                <default>false</default>
+                <label>Não reconhece a entrega</label>
+            </value>
+            <value>
+                <fullName>Extravio</fullName>
+                <default>false</default>
+                <label>Extravio</label>
+            </value>
+            <value>
+                <fullName>Retido na fiscalização</fullName>
+                <default>false</default>
+                <label>Retido na fiscalização</label>
+            </value>
+            <value>
+                <fullName>Prazo de entrega alterado</fullName>
+                <default>false</default>
+                <label>Prazo de entrega alterado</label>
+            </value>
+            <value>
+                <fullName>Em rota prazo expirado</fullName>
+                <default>false</default>
+                <label>Em rota prazo expirado</label>
+            </value>
+            <value>
+                <fullName>Tamanho grande</fullName>
+                <default>false</default>
+                <label>Tamanho grande</label>
+            </value>
+            <value>
+                <fullName>Tamanho pequeno</fullName>
+                <default>false</default>
+                <label>Tamanho pequeno</label>
+            </value>
+            <value>
+                <fullName>Não modelou bem no corpo</fullName>
+                <default>false</default>
+                <label>Não modelou bem no corpo</label>
+            </value>
+            <value>
+                <fullName>Não gostei da qualidade</fullName>
+                <default>false</default>
+                <label>Não gostei da qualidade</label>
+            </value>
+            <value>
+                <fullName>Comprou errado</fullName>
+                <default>false</default>
+                <label>Comprou errado</label>
+            </value>
+            <value>
+                <fullName>Não recebeu o e-ticket</fullName>
+                <default>false</default>
+                <label>Não recebeu o e-ticket</label>
+            </value>
+            <value>
+                <fullName>E-ticket vencido</fullName>
+                <default>false</default>
+                <label>E-ticket vencido</label>
+            </value>
+            <value>
+                <fullName>Coleta não realizada</fullName>
+                <default>false</default>
+                <label>Coleta não realizada</label>
+            </value>
+            <value>
+                <fullName>Produto em rota</fullName>
+                <default>false</default>
+                <label>Produto em rota</label>
+            </value>
+            <value>
+                <fullName>Entregue no CD</fullName>
+                <default>false</default>
+                <label>Entregue no CD</label>
+            </value>
+            <value>
+                <fullName>Como acessar a conta</fullName>
+                <default>false</default>
+                <label>Como acessar a conta</label>
+            </value>
+            <value>
+                <fullName>Não consegue acessar a conta</fullName>
+                <default>false</default>
+                <label>Não consegue acessar a conta</label>
+            </value>
+            <value>
+                <fullName>Não aparece o pedido</fullName>
+                <default>false</default>
+                <label>Não aparece o pedido</label>
+            </value>
+            <value>
+                <fullName>Solicita reset de senha</fullName>
+                <default>false</default>
+                <label>Solicita reset de senha</label>
+            </value>
+            <value>
+                <fullName>Solicita alteração de dados da conta</fullName>
+                <default>false</default>
+                <label>Solicita alteração de dados da conta</label>
+            </value>
+            <value>
+                <fullName>Limite não atualizado</fullName>
+                <default>false</default>
+                <label>Limite não atualizado</label>
+            </value>
+            <value>
+                <fullName>Análise de Risco</fullName>
+                <default>false</default>
+                <label>Análise de Risco</label>
+            </value>
+            <value>
+                <fullName>Site indisponível</fullName>
+                <default>false</default>
+                <label>Site indisponível</label>
+            </value>
+            <value>
+                <fullName>Lentidão no site</fullName>
+                <default>false</default>
+                <label>Lentidão no site</label>
+            </value>
+            <value>
+                <fullName>CEP não localizado</fullName>
+                <default>false</default>
+                <label>CEP não localizado</label>
+            </value>
+            <value>
+                <fullName>Dificuldade na navegação</fullName>
+                <default>false</default>
+                <label>Dificuldade na navegação</label>
+            </value>
+            <value>
+                <fullName>Alteração no preço</fullName>
+                <default>false</default>
+                <label>Alteração no preço</label>
+            </value>
+            <value>
+                <fullName>Não recebeu código de autenticação</fullName>
+                <default>false</default>
+                <label>Não recebeu código de autenticação</label>
+            </value>
+            <value>
+                <fullName>Valor do frete</fullName>
+                <default>false</default>
+                <label>Valor do frete</label>
+            </value>
+            <value>
+                <fullName>Dúvidas Tabela de medidas</fullName>
+                <default>false</default>
+                <label>Dúvidas Tabela de medidas</label>
+            </value>
+            <value>
+                <fullName>Descrição do produto incompleta</fullName>
+                <default>false</default>
+                <label>Descrição do produto incompleta</label>
+            </value>
+            <value>
+                <fullName>Descrição do produto incorreta</fullName>
+                <default>false</default>
+                <label>Descrição do produto incorreta</label>
+            </value>
+            <value>
+                <fullName>Foto modelo divergente</fullName>
+                <default>false</default>
+                <label>Foto modelo divergente</label>
+            </value>
+            <value>
+                <fullName>Foto detalhe divergente</fullName>
+                <default>false</default>
+                <label>Foto detalhe divergente</label>
+            </value>
+            <value>
+                <fullName>Foto tonalidade divergente</fullName>
+                <default>false</default>
+                <label>Foto tonalidade divergente</label>
+            </value>
+            <value>
+                <fullName>Preço</fullName>
+                <default>false</default>
+                <label>Preço</label>
+            </value>
+            <value>
+                <fullName>Valor do frete alto</fullName>
+                <default>false</default>
+                <label>Valor do frete alto</label>
+            </value>
+            <value>
+                <fullName>Prazo de entrega</fullName>
+                <default>false</default>
+                <label>Prazo de entrega</label>
+            </value>
+            <value>
+                <fullName>Vencimento Próximo</fullName>
+                <default>false</default>
+                <label>Vencimento Próximo</label>
+            </value>
+            <value>
+                <fullName>Funcionário não cadastrado</fullName>
+                <default>false</default>
+                <label>Funcionário não cadastrado</label>
+            </value>
+            <value>
+                <fullName>CEP não atendido por distribuidor</fullName>
+                <default>false</default>
+                <label>CEP não atendido por distribuidor</label>
+            </value>
+            <value>
+                <fullName>Falta item</fullName>
+                <default>false</default>
+                <label>Falta item</label>
+            </value>
+            <value>
+                <fullName>Item divergente</fullName>
+                <default>false</default>
+                <label>Item divergente</label>
+            </value>
+            <value>
+                <fullName>Avaria</fullName>
+                <default>false</default>
+                <label>Avaria</label>
+            </value>
+            <value>
+                <fullName>Pedido trocado</fullName>
+                <default>false</default>
+                <label>Pedido trocado</label>
+            </value>
+            <value>
+                <fullName>Avaria na embalagem</fullName>
+                <default>false</default>
+                <label>Avaria na embalagem</label>
+            </value>
+            <value>
+                <fullName>Avaria no conteúdo</fullName>
+                <default>false</default>
+                <label>Avaria no conteúdo</label>
+            </value>
+            <value>
+                <fullName>Reação adversa</fullName>
+                <default>false</default>
+                <label>Reação adversa</label>
+            </value>
+            <value>
+                <fullName>Produto diferente do site</fullName>
+                <default>false</default>
+                <label>Produto diferente do site</label>
+            </value>
+            <value>
+                <fullName>Defeito de fabricação</fullName>
+                <default>false</default>
+                <label>Defeito de fabricação</label>
+            </value>
+            <value>
+                <fullName>Erro de personalização</fullName>
+                <default>false</default>
+                <label>Erro de personalização</label>
+            </value>
+            <value>
+                <fullName>Produto vencido</fullName>
+                <default>false</default>
+                <label>Produto vencido</label>
+            </value>
+            <value>
+                <fullName>Divergência no gosto</fullName>
+                <default>false</default>
+                <label>Divergência no gosto</label>
+            </value>
+            <value>
+                <fullName>Divergência no cheiro</fullName>
+                <default>false</default>
+                <label>Divergência no cheiro</label>
+            </value>
+            <value>
+                <fullName>Problemas na calibração</fullName>
+                <default>false</default>
+                <label>Problemas na calibração</label>
+            </value>
+            <value>
+                <fullName>Problemas na textura</fullName>
+                <default>false</default>
+                <label>Problemas na textura</label>
+            </value>
+            <value>
+                <fullName>Problema na pulseira</fullName>
+                <default>false</default>
+                <label>Problema na pulseira</label>
+            </value>
+            <value>
+                <fullName>Problemas de sincronização</fullName>
+                <default>false</default>
+                <label>Problemas de sincronização</label>
+            </value>
+            <value>
+                <fullName>Falta de funcionalidade</fullName>
+                <default>false</default>
+                <label>Falta de funcionalidade</label>
+            </value>
+            <value>
+                <fullName>Próximo do vencimento</fullName>
+                <default>false</default>
+                <label>Próximo do vencimento</label>
+            </value>
+            <value>
+                <fullName>Baixa durabilidade</fullName>
+                <default>false</default>
+                <label>Baixa durabilidade</label>
+            </value>
+            <value>
+                <fullName>Tabela de tamanho divergente</fullName>
+                <default>false</default>
+                <label>Tabela de tamanho divergente</label>
+            </value>
+            <value>
+                <fullName>Regras/prazos</fullName>
+                <default>false</default>
+                <label>Regras/prazos</label>
+            </value>
+            <value>
+                <fullName>Regras</fullName>
+                <default>false</default>
+                <label>Regras</label>
+            </value>
+            <value>
+                <fullName>Prazo</fullName>
+                <default>false</default>
+                <label>Prazo</label>
+            </value>
+            <value>
+                <fullName>Não funciona o cupom</fullName>
+                <default>false</default>
+                <label>Não funciona o cupom</label>
+            </value>
+            <value>
+                <fullName>Não recebeu o brinde</fullName>
+                <default>false</default>
+                <label>Não recebeu o brinde</label>
+            </value>
+            <value>
+                <fullName>Patrocínio</fullName>
+                <default>false</default>
+                <label>Patrocínio</label>
+            </value>
+            <value>
+                <fullName>Material de divulgação</fullName>
+                <default>false</default>
+                <label>Material de divulgação</label>
+            </value>
+            <value>
+                <fullName>Revender produto</fullName>
+                <default>false</default>
+                <label>Revender produto</label>
+            </value>
+            <value>
+                <fullName>Endereço</fullName>
+                <default>false</default>
+                <label>Endereço</label>
+            </value>
+            <value>
+                <fullName>Troca na loja</fullName>
+                <default>false</default>
+                <label>Troca na loja</label>
+            </value>
+            <value>
+                <fullName>Devolução na loja</fullName>
+                <default>false</default>
+                <label>Devolução na loja</label>
+            </value>
+            <value>
+                <fullName>Trabalhe conosco</fullName>
+                <default>false</default>
+                <label>Trabalhe conosco</label>
+            </value>
+            <value>
+                <fullName>Como investir</fullName>
+                <default>false</default>
+                <label>Como investir</label>
+            </value>
+            <value>
+                <fullName>Funcionários</fullName>
+                <default>false</default>
+                <label>Funcionários</label>
+            </value>
+            <value>
+                <fullName>Mau atendimento</fullName>
+                <default>false</default>
+                <label>Mau atendimento</label>
+            </value>
+            <value>
+                <fullName>Atendimento robotizado</fullName>
+                <default>false</default>
+                <label>Atendimento robotizado</label>
+            </value>
+            <value>
+                <fullName>Resposta padrão</fullName>
+                <default>false</default>
+                <label>Resposta padrão</label>
+            </value>
+            <value>
+                <fullName>Não conhece processos</fullName>
+                <default>false</default>
+                <label>Não conhece processos</label>
+            </value>
+            <value>
+                <fullName>Falta de retorno</fullName>
+                <default>false</default>
+                <label>Falta de retorno</label>
+            </value>
+            <value>
+                <fullName>Não executou o procedimento</fullName>
+                <default>false</default>
+                <label>Não executou o procedimento</label>
+            </value>
+            <value>
+                <fullName>Beleza</fullName>
+                <default>false</default>
+                <label>Beleza</label>
+            </value>
+            <value>
+                <fullName>Funcionalidade</fullName>
+                <default>false</default>
+                <label>Funcionalidade</label>
+            </value>
+            <value>
+                <fullName>Custo beneficio</fullName>
+                <default>false</default>
+                <label>Custo beneficio</label>
+            </value>
+            <value>
+                <fullName>Processo de troca</fullName>
+                <default>false</default>
+                <label>Processo de troca</label>
+            </value>
+            <value>
+                <fullName>Processo de compra</fullName>
+                <default>false</default>
+                <label>Processo de compra</label>
+            </value>
+            <value>
+                <fullName>Institucional</fullName>
+                <default>false</default>
+                <label>Institucional</label>
+            </value>
+            <value>
+                <fullName>SAC Infra</fullName>
+                <default>false</default>
+                <label>SAC Infra</label>
+            </value>
+            <value>
+                <fullName>SAC Terceiro</fullName>
+                <default>false</default>
+                <label>SAC Terceiro</label>
+            </value>
+            <value>
+                <fullName>Loja Física</fullName>
+                <default>false</default>
+                <label>Loja Física</label>
+            </value>
+            <value>
+                <fullName>Distribuidor</fullName>
+                <default>false</default>
+                <label>Distribuidor</label>
+            </value>
+            <value>
+                <fullName>NRP</fullName>
+                <default>false</default>
+                <label>NRP</label>
+            </value>
+            <value>
+                <fullName>Embalagem</fullName>
+                <default>false</default>
+                <label>Embalagem</label>
+            </value>
+            <value>
+                <fullName>Agilidade</fullName>
+                <default>false</default>
+                <label>Agilidade</label>
+            </value>
+            <value>
+                <fullName>Entregador</fullName>
+                <default>false</default>
+                <label>Entregador</label>
+            </value>
+            <value>
+                <fullName>Coleta</fullName>
+                <default>false</default>
+                <label>Coleta</label>
+            </value>
+            <value>
+                <fullName>Chat desconectado</fullName>
+                <default>false</default>
+                <label>Chat desconectado</label>
+            </value>
+            <value>
+                <fullName>Spam</fullName>
+                <default>false</default>
+                <label>Spam</label>
+            </value>
+            <value>
+                <fullName>Queda na ligação</fullName>
+                <default>false</default>
+                <label>Queda na ligação</label>
+            </value>
+            <value>
+                <fullName>Ligação muda</fullName>
+                <default>false</default>
+                <label>Ligação muda</label>
+            </value>
+            <value>
+                <fullName>Sem retorno do consumidor</fullName>
+                <default>false</default>
+                <label>Sem retorno do consumidor</label>
+            </value>
+            <value>
+                <fullName>Integração de Limite - TI NRP</fullName>
+                <default>false</default>
+                <label>Integração de Limite - TI NRP</label>
+            </value>
+            <value>
+                <fullName>Integração de Pagamento - TI NRP</fullName>
+                <default>false</default>
+                <label>Integração de Pagamento - TI NRP</label>
+            </value>
+            <value>
+                <fullName>Integração de Pedido - TI NRP</fullName>
+                <default>false</default>
+                <label>Integração de Pedido - TI NRP</label>
+            </value>
+            <value>
+                <fullName>Integração de Preço - TI NRP</fullName>
+                <default>false</default>
+                <label>Integração de Preço - TI NRP</label>
+            </value>
+            <value>
+                <fullName>Integração de Produto - TI NRP</fullName>
+                <default>false</default>
+                <label>Integração de Produto - TI NRP</label>
+            </value>
+            <value>
+                <fullName>Integração de Tracking - TI NRP</fullName>
+                <default>false</default>
+                <label>Integração de Tracking - TI NRP</label>
+            </value>
+            <value>
+                <fullName>Dúvidas sobre Acesso</fullName>
+                <default>false</default>
+                <label>Dúvidas sobre Acesso</label>
+            </value>
+            <value>
+                <fullName>Erro ao Acessar</fullName>
+                <default>false</default>
+                <label>Erro ao Acessar</label>
+            </value>
+            <value>
+                <fullName>Navegação no Site</fullName>
+                <default>false</default>
+                <label>Navegação no Site</label>
+            </value>
+            <value>
+                <fullName>Reenvio de senha</fullName>
+                <default>false</default>
+                <label>Reenvio de senha</label>
+            </value>
+            <value>
+                <fullName>Reset de senha</fullName>
+                <default>false</default>
+                <label>Reset de senha</label>
+            </value>
+            <value>
+                <fullName>Solicitação de alteração</fullName>
+                <default>false</default>
+                <label>Solicitação de alteração</label>
+            </value>
+            <value>
+                <fullName>Solicitação de exclusão</fullName>
+                <default>false</default>
+                <label>Solicitação de exclusão</label>
+            </value>
+            <value>
+                <fullName>Solicitação de inclusão</fullName>
+                <default>false</default>
+                <label>Solicitação de inclusão</label>
+            </value>
+            <value>
+                <fullName>Lentidão</fullName>
+                <default>false</default>
+                <label>Lentidão</label>
+            </value>
+            <value>
+                <fullName>Looping ao tentar finalizar a compra</fullName>
+                <default>false</default>
+                <label>Looping ao tentar finalizar a compra</label>
+            </value>
+            <value>
+                <fullName>Parceiro não vê sortimento</fullName>
+                <default>false</default>
+                <label>Parceiro não vê sortimento</label>
+            </value>
+            <value>
+                <fullName>Parceiro não vê preço</fullName>
+                <default>false</default>
+                <label>Parceiro não vê preço</label>
+            </value>
+            <value>
+                <fullName>Problemas no carrinho</fullName>
+                <default>false</default>
+                <label>Problemas no carrinho</label>
+            </value>
+            <value>
+                <fullName>Site não acessa</fullName>
+                <default>false</default>
+                <label>Site não acessa</label>
+            </value>
+            <value>
+                <fullName>CNPJ</fullName>
+                <default>false</default>
+                <label>CNPJ</label>
+            </value>
+            <value>
+                <fullName>Inscrição estadual</fullName>
+                <default>false</default>
+                <label>Inscrição estadual</label>
+            </value>
+            <value>
+                <fullName>Faixa de CEP</fullName>
+                <default>false</default>
+                <label>Faixa de CEP</label>
+            </value>
+            <value>
+                <fullName>Descrição do produto</fullName>
+                <default>false</default>
+                <label>Descrição do produto</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Imagem</fullName>
+                <default>false</default>
+                <label>Imagem</label>
+            </value>
+            <value>
+                <fullName>Outros dados</fullName>
+                <default>false</default>
+                <label>Outros dados</label>
+            </value>
+            <value>
+                <fullName>Redefinir senha</fullName>
+                <default>false</default>
+                <label>Redefinir senha</label>
+            </value>
+            <value>
+                <fullName>Fidelidade</fullName>
+                <default>false</default>
+                <label>Fidelidade</label>
+            </value>
+            <value>
+                <fullName>Cancelamento Vale Compra Agora</fullName>
+                <default>false</default>
+                <label>Cancelamento Vale Compra Agora</label>
+            </value>
+            <value>
+                <fullName>Dúvidas Vale Compra Agora</fullName>
+                <default>false</default>
+                <label>Dúvidas Vale Compra Agora</label>
+            </value>
+            <value>
+                <fullName>Ruptura Vale Compra Agora</fullName>
+                <default>false</default>
+                <label>Ruptura Vale Compra Agora</label>
+            </value>
+            <value>
+                <fullName>Outros</fullName>
+                <default>false</default>
+                <label>Outros</label>
+            </value>
+            <value>
+                <fullName>Primeira Compra</fullName>
+                <default>false</default>
+                <label>Primeira Compra</label>
+            </value>
+            <value>
+                <fullName>Acesso BI</fullName>
+                <default>false</default>
+                <label>Acesso BI</label>
+            </value>
+            <value>
+                <fullName>BI Não carrega</fullName>
+                <default>false</default>
+                <label>BI Não carrega</label>
+            </value>
+            <value>
+                <fullName>Black List</fullName>
+                <default>false</default>
+                <label>Black List</label>
+            </value>
+            <value>
+                <fullName>Cancelamento como funciona</fullName>
+                <default>false</default>
+                <label>Cancelamento como funciona</label>
+            </value>
+            <value>
+                <fullName>Comunicados Diversos</fullName>
+                <default>false</default>
+                <label>Comunicados Diversos</label>
+            </value>
+            <value>
+                <fullName>Dados cadastrais</fullName>
+                <default>false</default>
+                <label>Dados cadastrais</label>
+            </value>
+            <value>
+                <fullName>Dúvida em apuração</fullName>
+                <default>false</default>
+                <label>Dúvida em apuração</label>
+            </value>
+            <value>
+                <fullName>Dúvida sobre promoções</fullName>
+                <default>false</default>
+                <label>Dúvida sobre promoções</label>
+            </value>
+            <value>
+                <fullName>Dúvidas sobre dados no BI</fullName>
+                <default>false</default>
+                <label>Dúvidas sobre dados no BI</label>
+            </value>
+            <value>
+                <fullName>Entrega, prazos</fullName>
+                <default>false</default>
+                <label>Entrega, prazos</label>
+            </value>
+            <value>
+                <fullName>Solicitação de Inclusão de Prazos de Pagamento</fullName>
+                <default>false</default>
+                <label>Solicitação de Inclusão de Prazos de Pagamento</label>
+            </value>
+            <value>
+                <fullName>Solicitação de Exclusão de Prazos de Pagamento</fullName>
+                <default>false</default>
+                <label>Solicitação de Exclusão de Prazos de Pagamento</label>
+            </value>
+            <value>
+                <fullName>Cadastro de Produtos</fullName>
+                <default>false</default>
+                <label>Cadastro de Produtos</label>
+            </value>
+            <value>
+                <fullName>Alteração de Valor de Pedido mínimo do Site</fullName>
+                <default>false</default>
+                <label>Alteração de Valor de Pedido mínimo do Site</label>
+            </value>
+            <value>
+                <fullName>Pagamento, prazos</fullName>
+                <default>false</default>
+                <label>Pagamento, prazos</label>
+            </value>
+            <value>
+                <fullName>Dúvida sobre prazo de entrega</fullName>
+                <default>false</default>
+                <label>Dúvida sobre prazo de entrega</label>
+            </value>
+            <value>
+                <fullName>Comprovante de Entrega</fullName>
+                <default>false</default>
+                <label>Comprovante de Entrega</label>
+            </value>
+            <value>
+                <fullName>Dúvida sobre produtos comprados</fullName>
+                <default>false</default>
+                <label>Dúvida sobre produtos comprados</label>
+            </value>
+            <value>
+                <fullName>Dúvida sobre promoções aplicadas</fullName>
+                <default>false</default>
+                <label>Dúvida sobre promoções aplicadas</label>
+            </value>
+            <value>
+                <fullName>Impressão de boletos</fullName>
+                <default>false</default>
+                <label>Impressão de boletos</label>
+            </value>
+            <value>
+                <fullName>Pedido cancelado pelo distribuidor</fullName>
+                <default>false</default>
+                <label>Pedido cancelado pelo distribuidor</label>
+            </value>
+            <value>
+                <fullName>Ruptura</fullName>
+                <default>false</default>
+                <label>Ruptura</label>
+            </value>
+            <value>
+                <fullName>Status de pagamento</fullName>
+                <default>false</default>
+                <label>Status de pagamento</label>
+            </value>
+            <value>
+                <fullName>Erro reportado pela IFC</fullName>
+                <default>false</default>
+                <label>Erro reportado pela IFC</label>
+            </value>
+            <value>
+                <fullName>Limite enviado errado</fullName>
+                <default>false</default>
+                <label>Limite enviado errado</label>
+            </value>
+            <value>
+                <fullName>Limite não refletido (fora do prazo)</fullName>
+                <default>false</default>
+                <label>Limite não refletido (fora do prazo)</label>
+            </value>
+            <value>
+                <fullName>Limite não refletido (no prazo)</fullName>
+                <default>false</default>
+                <label>Limite não refletido (no prazo)</label>
+            </value>
+            <value>
+                <fullName>Pagamento não refletido (fora do prazo)</fullName>
+                <default>false</default>
+                <label>Pagamento não refletido (fora do prazo)</label>
+            </value>
+            <value>
+                <fullName>Pagamento não refletido (no prazo)</fullName>
+                <default>false</default>
+                <label>Pagamento não refletido (no prazo)</label>
+            </value>
+            <value>
+                <fullName>Tracking com resposta errada (problema no distribuidor)</fullName>
+                <default>false</default>
+                <label>Tracking com resposta errada (problema no distribuidor)</label>
+            </value>
+            <value>
+                <fullName>Pedido não integrado (fora do prazo)</fullName>
+                <default>false</default>
+                <label>Pedido não integrado (fora do prazo)</label>
+            </value>
+            <value>
+                <fullName>Pedido não integrado (no prazo)</fullName>
+                <default>false</default>
+                <label>Pedido não integrado (no prazo)</label>
+            </value>
+            <value>
+                <fullName>Pedido não integrado (problema no distribuidor)</fullName>
+                <default>false</default>
+                <label>Pedido não integrado (problema no distribuidor)</label>
+            </value>
+            <value>
+                <fullName>Preço enviado errado</fullName>
+                <default>false</default>
+                <label>Preço enviado errado</label>
+            </value>
+            <value>
+                <fullName>Preço não refletido (fora do prazo)</fullName>
+                <default>false</default>
+                <label>Preço não refletido (fora do prazo)</label>
+            </value>
+            <value>
+                <fullName>Preço não refletido (no prazo)</fullName>
+                <default>false</default>
+                <label>Preço não refletido (no prazo)</label>
+            </value>
+            <value>
+                <fullName>SKU não refletido (fora do prazo)</fullName>
+                <default>false</default>
+                <label>SKU não refletido (fora do prazo)</label>
+            </value>
+            <value>
+                <fullName>SKU enviado errado</fullName>
+                <default>false</default>
+                <label>SKU enviado errado</label>
+            </value>
+            <value>
+                <fullName>SKU não refletido (no prazo)</fullName>
+                <default>false</default>
+                <label>SKU não refletido (no prazo)</label>
+            </value>
+            <value>
+                <fullName>Cobrança de Faturamento</fullName>
+                <default>false</default>
+                <label>Cobrança de Faturamento</label>
+            </value>
+            <value>
+                <fullName>Erro reportado pela IFC NCC</fullName>
+                <default>false</default>
+                <label>Erro reportado pela IFC NCC</label>
+            </value>
+            <value>
+                <fullName>Tracking enviada errada</fullName>
+                <default>false</default>
+                <label>Tracking enviada errada</label>
+            </value>
+            <value>
+                <fullName>Tracking enviada fora de ordem</fullName>
+                <default>false</default>
+                <label>Tracking enviada fora de ordem</label>
+            </value>
+            <value>
+                <fullName>Tracking não refletido (fora do prazo)</fullName>
+                <default>false</default>
+                <label>Tracking não refletido (fora do prazo)</label>
+            </value>
+            <value>
+                <fullName>Tracking não refletido (no prazo)</fullName>
+                <default>false</default>
+                <label>Tracking não refletido (no prazo)</label>
+            </value>
+            <value>
+                <fullName>Problema com itens da lista</fullName>
+                <default>false</default>
+                <label>Problema com itens da lista</label>
+            </value>
+            <value>
+                <fullName>Problema com preço da lista</fullName>
+                <default>false</default>
+                <label>Problema com preço da lista</label>
+            </value>
+            <value>
+                <fullName>Cadastro</fullName>
+                <default>false</default>
+                <label>Cadastro</label>
+            </value>
+            <value>
+                <fullName>Limite de crédito</fullName>
+                <default>false</default>
+                <label>Limite de crédito</label>
+            </value>
+            <value>
+                <fullName>E-mail duplicado</fullName>
+                <default>false</default>
+                <label>E-mail duplicado</label>
+            </value>
+            <value>
+                <fullName>E-mail SPAM</fullName>
+                <default>false</default>
+                <label>E-mail SPAM</label>
+            </value>
+            <value>
+                <fullName>Compensação bancária (não localizada)</fullName>
+                <default>false</default>
+                <label>Compensação bancária (não localizada)</label>
+            </value>
+            <value>
+                <fullName>Compensação de pedido (não localizado)</fullName>
+                <default>false</default>
+                <label>Compensação de pedido (não localizado)</label>
+            </value>
+            <value>
+                <fullName>Pedido faturado não localizado</fullName>
+                <default>false</default>
+                <label>Pedido faturado não localizado</label>
+            </value>
+            <value>
+                <fullName>Reembolso indevido</fullName>
+                <default>false</default>
+                <label>Reembolso indevido</label>
+            </value>
+            <value>
+                <fullName>Repasse não localizado</fullName>
+                <default>false</default>
+                <label>Repasse não localizado</label>
+            </value>
+            <value>
+                <fullName>Taxa Operacional</fullName>
+                <default>false</default>
+                <label>Taxa Operacional</label>
+            </value>
+            <value>
+                <fullName>Valor divergente compensado (Utilizado Vale Troca)</fullName>
+                <default>false</default>
+                <label>Valor divergente compensado (Utilizado Vale Troca)</label>
+            </value>
+            <value>
+                <fullName>Valor divergente compensado (Utilizado outro meio)</fullName>
+                <default>false</default>
+                <label>Valor divergente compensado (Utilizado outro meio)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Atendimento Distribuidor</controllingFieldValue>
+            <controllingFieldValue>Atendimento NRP</controllingFieldValue>
+            <controllingFieldValue>SAC Infra</controllingFieldValue>
+            <controllingFieldValue>SAC Terceiro</controllingFieldValue>
+            <controllingFieldValue>Atendimento Loja Física</controllingFieldValue>
+            <valueName>Mau atendimento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atendimento Distribuidor</controllingFieldValue>
+            <controllingFieldValue>Atendimento NRP</controllingFieldValue>
+            <controllingFieldValue>SAC Infra</controllingFieldValue>
+            <controllingFieldValue>SAC Terceiro</controllingFieldValue>
+            <controllingFieldValue>Atendimento Loja Física</controllingFieldValue>
+            <valueName>Atendimento robotizado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atendimento Distribuidor</controllingFieldValue>
+            <controllingFieldValue>Atendimento NRP</controllingFieldValue>
+            <controllingFieldValue>SAC Infra</controllingFieldValue>
+            <controllingFieldValue>SAC Terceiro</controllingFieldValue>
+            <controllingFieldValue>Atendimento Loja Física</controllingFieldValue>
+            <valueName>Resposta padrão</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atendimento Distribuidor</controllingFieldValue>
+            <controllingFieldValue>Atendimento NRP</controllingFieldValue>
+            <controllingFieldValue>SAC Infra</controllingFieldValue>
+            <controllingFieldValue>SAC Terceiro</controllingFieldValue>
+            <controllingFieldValue>Atendimento Loja Física</controllingFieldValue>
+            <valueName>Não conhece processos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atendimento Distribuidor</controllingFieldValue>
+            <controllingFieldValue>Atendimento NRP</controllingFieldValue>
+            <controllingFieldValue>SAC Infra</controllingFieldValue>
+            <controllingFieldValue>SAC Terceiro</controllingFieldValue>
+            <controllingFieldValue>Atendimento Loja Física</controllingFieldValue>
+            <valueName>Falta de retorno</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atendimento Distribuidor</controllingFieldValue>
+            <controllingFieldValue>Atendimento NRP</controllingFieldValue>
+            <controllingFieldValue>SAC Infra</controllingFieldValue>
+            <controllingFieldValue>SAC Terceiro</controllingFieldValue>
+            <controllingFieldValue>Atendimento Loja Física</controllingFieldValue>
+            <valueName>Não executou o procedimento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integração de Limite</controllingFieldValue>
+            <controllingFieldValue>Integração de pagamento</controllingFieldValue>
+            <controllingFieldValue>Integração de pedido</controllingFieldValue>
+            <controllingFieldValue>Integração de preço</controllingFieldValue>
+            <controllingFieldValue>Integração de produto</controllingFieldValue>
+            <controllingFieldValue>Integração de tracking</controllingFieldValue>
+            <valueName>Erro reportado pela IFC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integração de Limite</controllingFieldValue>
+            <valueName>Limite enviado errado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integração de Limite</controllingFieldValue>
+            <valueName>Limite não refletido (fora do prazo)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integração de Limite</controllingFieldValue>
+            <valueName>Limite não refletido (no prazo)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elogio do produto</controllingFieldValue>
+            <controllingFieldValue>Elogio do Site</controllingFieldValue>
+            <valueName>Beleza</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elogio do produto</controllingFieldValue>
+            <controllingFieldValue>Elogio do Site</controllingFieldValue>
+            <valueName>Funcionalidade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elogio do produto</controllingFieldValue>
+            <valueName>Custo beneficio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integração de pagamento</controllingFieldValue>
+            <valueName>Pagamento não refletido (fora do prazo)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integração de pagamento</controllingFieldValue>
+            <valueName>Pagamento não refletido (no prazo)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integração de pagamento</controllingFieldValue>
+            <valueName>Tracking com resposta errada (problema no distribuidor)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elogio da marca</controllingFieldValue>
+            <valueName>Processo de troca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elogio da marca</controllingFieldValue>
+            <valueName>Processo de compra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elogio da marca</controllingFieldValue>
+            <valueName>Institucional</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integração de pedido</controllingFieldValue>
+            <valueName>Pedido não integrado (fora do prazo)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integração de pedido</controllingFieldValue>
+            <valueName>Pedido não integrado (no prazo)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integração de pedido</controllingFieldValue>
+            <valueName>Pedido não integrado (problema no distribuidor)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elogio atendimento</controllingFieldValue>
+            <valueName>SAC Infra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elogio atendimento</controllingFieldValue>
+            <valueName>SAC Terceiro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elogio atendimento</controllingFieldValue>
+            <valueName>Loja Física</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elogio atendimento</controllingFieldValue>
+            <valueName>Distribuidor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elogio atendimento</controllingFieldValue>
+            <valueName>NRP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integração de preço</controllingFieldValue>
+            <valueName>Preço enviado errado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integração de preço</controllingFieldValue>
+            <valueName>Preço não refletido (fora do prazo)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integração de preço</controllingFieldValue>
+            <valueName>Preço não refletido (no prazo)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integração de produto</controllingFieldValue>
+            <valueName>SKU não refletido (fora do prazo)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integração de produto</controllingFieldValue>
+            <valueName>SKU enviado errado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integração de produto</controllingFieldValue>
+            <valueName>SKU não refletido (no prazo)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integração de tracking</controllingFieldValue>
+            <valueName>Cobrança de Faturamento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integração de tracking</controllingFieldValue>
+            <valueName>Erro reportado pela IFC NCC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integração de tracking</controllingFieldValue>
+            <valueName>Tracking enviada errada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integração de tracking</controllingFieldValue>
+            <valueName>Tracking enviada fora de ordem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integração de tracking</controllingFieldValue>
+            <valueName>Tracking não refletido (fora do prazo)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Integração de tracking</controllingFieldValue>
+            <valueName>Tracking não refletido (no prazo)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spam</controllingFieldValue>
+            <controllingFieldValue>Telefone</controllingFieldValue>
+            <valueName>Ligação muda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spam</controllingFieldValue>
+            <valueName>E-mail duplicado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spam</controllingFieldValue>
+            <valueName>E-mail SPAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problema com lista sugerida</controllingFieldValue>
+            <valueName>Problema com itens da lista</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problema com lista sugerida</controllingFieldValue>
+            <valueName>Problema com preço da lista</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rever aprovação</controllingFieldValue>
+            <valueName>Cadastro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rever aprovação</controllingFieldValue>
+            <valueName>Limite de crédito</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outros</controllingFieldValue>
+            <valueName>Compensação bancária (não localizada)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outros</controllingFieldValue>
+            <valueName>Compensação de pedido (não localizado)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outros</controllingFieldValue>
+            <valueName>Pedido faturado não localizado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outros</controllingFieldValue>
+            <valueName>Reembolso indevido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outros</controllingFieldValue>
+            <valueName>Repasse não localizado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outros</controllingFieldValue>
+            <valueName>Taxa Operacional</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outros</controllingFieldValue>
+            <valueName>Valor divergente compensado (Utilizado Vale Troca)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outros</controllingFieldValue>
+            <valueName>Valor divergente compensado (Utilizado outro meio)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elogio da Logística</controllingFieldValue>
+            <valueName>Embalagem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elogio da Logística</controllingFieldValue>
+            <controllingFieldValue>Elogio de Transporte</controllingFieldValue>
+            <valueName>Agilidade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elogio de Transporte</controllingFieldValue>
+            <valueName>Entregador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elogio de Transporte</controllingFieldValue>
+            <valueName>Coleta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conta</controllingFieldValue>
+            <valueName>Como acessar a conta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conta</controllingFieldValue>
+            <valueName>Não consegue acessar a conta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conta</controllingFieldValue>
+            <valueName>Não aparece o pedido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conta</controllingFieldValue>
+            <valueName>Solicita reset de senha</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conta</controllingFieldValue>
+            <valueName>Solicita alteração de dados da conta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conta</controllingFieldValue>
+            <valueName>Limite não atualizado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conta</controllingFieldValue>
+            <valueName>Análise de Risco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chat</controllingFieldValue>
+            <valueName>Chat desconectado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chat</controllingFieldValue>
+            <controllingFieldValue>Whatsapp</controllingFieldValue>
+            <controllingFieldValue>Email</controllingFieldValue>
+            <valueName>Spam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Erro</controllingFieldValue>
+            <valueName>Site indisponível</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Erro</controllingFieldValue>
+            <valueName>Lentidão no site</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Erro</controllingFieldValue>
+            <valueName>CEP não localizado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Erro</controllingFieldValue>
+            <valueName>Dificuldade na navegação</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Erro</controllingFieldValue>
+            <valueName>Alteração no preço</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Erro</controllingFieldValue>
+            <valueName>Não recebeu código de autenticação</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Erro</controllingFieldValue>
+            <valueName>Valor do frete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Telefone</controllingFieldValue>
+            <valueName>Queda na ligação</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Produto</controllingFieldValue>
+            <controllingFieldValue>Status da entrega-Transporte</controllingFieldValue>
+            <valueName>CEP não atendido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Produto</controllingFieldValue>
+            <valueName>Dúvidas Tabela de medidas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Produto</controllingFieldValue>
+            <valueName>Descrição do produto incompleta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Produto</controllingFieldValue>
+            <valueName>Descrição do produto incorreta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Produto</controllingFieldValue>
+            <valueName>Foto modelo divergente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Produto</controllingFieldValue>
+            <valueName>Foto detalhe divergente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Produto</controllingFieldValue>
+            <valueName>Foto tonalidade divergente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Produto</controllingFieldValue>
+            <valueName>Preço</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Produto</controllingFieldValue>
+            <valueName>Valor do frete alto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Produto</controllingFieldValue>
+            <valueName>Prazo de entrega</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Produto</controllingFieldValue>
+            <valueName>Vencimento Próximo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Produto</controllingFieldValue>
+            <controllingFieldValue>Cliente atesta não conformidade</controllingFieldValue>
+            <valueName>Reação adversa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Whatsapp</controllingFieldValue>
+            <valueName>Sem retorno do consumidor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipe</controllingFieldValue>
+            <valueName>Funcionário não cadastrado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promoções</controllingFieldValue>
+            <valueName>Regras</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promoções</controllingFieldValue>
+            <valueName>Prazo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promoções</controllingFieldValue>
+            <valueName>Não funciona o cupom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Promoções</controllingFieldValue>
+            <valueName>Não recebeu o brinde</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Parceria</controllingFieldValue>
+            <valueName>Patrocínio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Parceria</controllingFieldValue>
+            <valueName>Material de divulgação</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Parceria</controllingFieldValue>
+            <valueName>Revender produto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atendimento TI Nível 2</controllingFieldValue>
+            <valueName>Integração de Limite - TI NRP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atendimento TI Nível 2</controllingFieldValue>
+            <valueName>Integração de Pagamento - TI NRP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atendimento TI Nível 2</controllingFieldValue>
+            <valueName>Integração de Pedido - TI NRP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atendimento TI Nível 2</controllingFieldValue>
+            <valueName>Integração de Preço - TI NRP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atendimento TI Nível 2</controllingFieldValue>
+            <valueName>Integração de Produto - TI NRP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atendimento TI Nível 2</controllingFieldValue>
+            <valueName>Integração de Tracking - TI NRP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atendimento TI Nível 2</controllingFieldValue>
+            <valueName>Dúvidas sobre Acesso</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dúvidas Loja Física</controllingFieldValue>
+            <controllingFieldValue>Assistência Técnica</controllingFieldValue>
+            <valueName>Endereço</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dúvidas Loja Física</controllingFieldValue>
+            <valueName>Troca na loja</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dúvidas Loja Física</controllingFieldValue>
+            <valueName>Devolução na loja</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status do pagamento</controllingFieldValue>
+            <valueName>Pedido não aprovado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status do pagamento</controllingFieldValue>
+            <valueName>Pedido cancelado parcial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status do pagamento</controllingFieldValue>
+            <valueName>Pedido cancelado total</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status do pagamento</controllingFieldValue>
+            <valueName>Pedido não integrado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status do pagamento</controllingFieldValue>
+            <valueName>Boleto não enviado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status do pagamento</controllingFieldValue>
+            <valueName>Boleto não faturado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status do pagamento</controllingFieldValue>
+            <valueName>Anti-fraude</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status do pagamento</controllingFieldValue>
+            <valueName>Segunda via de boleto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status do pagamento</controllingFieldValue>
+            <valueName>Prorrogação de boleto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status do pagamento</controllingFieldValue>
+            <valueName>Envio segunda via de nota fiscal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status do pagamento</controllingFieldValue>
+            <valueName>Alteração de endereço</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status da entrega-CD</controllingFieldValue>
+            <valueName>Aguardando separação</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status da entrega-CD</controllingFieldValue>
+            <valueName>Aguardando faturamento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status da entrega-CD</controllingFieldValue>
+            <valueName>Aguardando expedição</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status da entrega-CD</controllingFieldValue>
+            <valueName>Aguardando personalização</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status da entrega-CD</controllingFieldValue>
+            <valueName>Aguardando despacho</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status da entrega-CD</controllingFieldValue>
+            <controllingFieldValue>Informações sobre pedidos</controllingFieldValue>
+            <valueName>Ruptura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status da entrega-Transporte</controllingFieldValue>
+            <valueName>Em rota dentro do prazo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status da entrega-Transporte</controllingFieldValue>
+            <valueName>Tracking desatualizado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status da entrega-Transporte</controllingFieldValue>
+            <valueName>Endereço insuficiente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status da entrega-Transporte</controllingFieldValue>
+            <valueName>Endereço errado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status da entrega-Transporte</controllingFieldValue>
+            <valueName>Tentativa de entrega sem sucesso</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status da entrega-Transporte</controllingFieldValue>
+            <valueName>Não reconhece a entrega</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status da entrega-Transporte</controllingFieldValue>
+            <valueName>Extravio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status da entrega-Transporte</controllingFieldValue>
+            <valueName>Retido na fiscalização</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status da entrega-Transporte</controllingFieldValue>
+            <valueName>Prazo de entrega alterado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status da entrega-Transporte</controllingFieldValue>
+            <valueName>Em rota prazo expirado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente atesta não conformidade</controllingFieldValue>
+            <valueName>Falta item</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente atesta não conformidade</controllingFieldValue>
+            <valueName>Item divergente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente atesta não conformidade</controllingFieldValue>
+            <valueName>Avaria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente atesta não conformidade</controllingFieldValue>
+            <valueName>Pedido trocado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente atesta não conformidade</controllingFieldValue>
+            <valueName>Avaria na embalagem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente atesta não conformidade</controllingFieldValue>
+            <valueName>Avaria no conteúdo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente atesta não conformidade</controllingFieldValue>
+            <valueName>Produto diferente do site</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente atesta não conformidade</controllingFieldValue>
+            <valueName>Defeito de fabricação</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente atesta não conformidade</controllingFieldValue>
+            <valueName>Erro de personalização</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente atesta não conformidade</controllingFieldValue>
+            <valueName>Produto vencido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente atesta não conformidade</controllingFieldValue>
+            <valueName>Divergência no gosto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente atesta não conformidade</controllingFieldValue>
+            <valueName>Divergência no cheiro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente atesta não conformidade</controllingFieldValue>
+            <valueName>Problemas na calibração</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente atesta não conformidade</controllingFieldValue>
+            <valueName>Problemas na textura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente atesta não conformidade</controllingFieldValue>
+            <valueName>Problema na pulseira</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente atesta não conformidade</controllingFieldValue>
+            <valueName>Problemas de sincronização</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente atesta não conformidade</controllingFieldValue>
+            <valueName>Falta de funcionalidade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente atesta não conformidade</controllingFieldValue>
+            <valueName>Próximo do vencimento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente atesta não conformidade</controllingFieldValue>
+            <valueName>Baixa durabilidade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente não gostou do produto</controllingFieldValue>
+            <valueName>Tamanho grande</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente não gostou do produto</controllingFieldValue>
+            <valueName>Tamanho pequeno</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente não gostou do produto</controllingFieldValue>
+            <valueName>Não modelou bem no corpo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente não gostou do produto</controllingFieldValue>
+            <valueName>Não gostei da qualidade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente não gostou do produto</controllingFieldValue>
+            <valueName>Comprou errado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente não gostou do produto</controllingFieldValue>
+            <valueName>Tabela de tamanho divergente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status reversa</controllingFieldValue>
+            <valueName>Não recebeu o e-ticket</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status reversa</controllingFieldValue>
+            <valueName>E-ticket vencido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status reversa</controllingFieldValue>
+            <valueName>Coleta não realizada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status reversa</controllingFieldValue>
+            <valueName>Produto em rota</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Status reversa</controllingFieldValue>
+            <valueName>Entregue no CD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Localização</controllingFieldValue>
+            <valueName>CEP não atendido por distribuidor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atualização de Estrutura</controllingFieldValue>
+            <valueName>Erro ao Acessar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atualização de Estrutura</controllingFieldValue>
+            <controllingFieldValue>Informações</controllingFieldValue>
+            <valueName>Navegação no Site</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atualização de Estrutura</controllingFieldValue>
+            <valueName>Reenvio de senha</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atualização de Estrutura</controllingFieldValue>
+            <valueName>Reset de senha</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atualização de Estrutura</controllingFieldValue>
+            <valueName>Solicitação de alteração</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atualização de Estrutura</controllingFieldValue>
+            <valueName>Solicitação de exclusão</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atualização de Estrutura</controllingFieldValue>
+            <valueName>Solicitação de inclusão</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bug no site</controllingFieldValue>
+            <valueName>Lentidão</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bug no site</controllingFieldValue>
+            <valueName>Looping ao tentar finalizar a compra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bug no site</controllingFieldValue>
+            <valueName>Parceiro não vê sortimento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bug no site</controllingFieldValue>
+            <valueName>Parceiro não vê preço</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bug no site</controllingFieldValue>
+            <valueName>Problemas no carrinho</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bug no site</controllingFieldValue>
+            <valueName>Site não acessa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Institucional Marca</controllingFieldValue>
+            <valueName>Trabalhe conosco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Institucional Marca</controllingFieldValue>
+            <valueName>Como investir</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Institucional Marca</controllingFieldValue>
+            <valueName>Funcionários</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Correção</controllingFieldValue>
+            <valueName>CNPJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Correção</controllingFieldValue>
+            <valueName>Inscrição estadual</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Correção</controllingFieldValue>
+            <valueName>Faixa de CEP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Correção</controllingFieldValue>
+            <valueName>Descrição do produto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Correção</controllingFieldValue>
+            <valueName>Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Correção</controllingFieldValue>
+            <valueName>Imagem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Correção</controllingFieldValue>
+            <valueName>Outros dados</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Correção</controllingFieldValue>
+            <valueName>Redefinir senha</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cupom não funciona</controllingFieldValue>
+            <valueName>Fidelidade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cupom não funciona</controllingFieldValue>
+            <valueName>Cancelamento Vale Compra Agora</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cupom não funciona</controllingFieldValue>
+            <valueName>Dúvidas Vale Compra Agora</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cupom não funciona</controllingFieldValue>
+            <valueName>Ruptura Vale Compra Agora</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cupom não funciona</controllingFieldValue>
+            <valueName>Outros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cupom não funciona</controllingFieldValue>
+            <valueName>Primeira Compra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informações</controllingFieldValue>
+            <valueName>Acesso BI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informações</controllingFieldValue>
+            <valueName>BI Não carrega</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informações</controllingFieldValue>
+            <valueName>Black List</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informações</controllingFieldValue>
+            <valueName>Cancelamento como funciona</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informações</controllingFieldValue>
+            <valueName>Comunicados Diversos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informações</controllingFieldValue>
+            <valueName>Dados cadastrais</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informações</controllingFieldValue>
+            <valueName>Dúvida em apuração</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informações</controllingFieldValue>
+            <valueName>Dúvida sobre promoções</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informações</controllingFieldValue>
+            <valueName>Dúvidas sobre dados no BI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informações</controllingFieldValue>
+            <valueName>Entrega, prazos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informações</controllingFieldValue>
+            <valueName>Solicitação de Inclusão de Prazos de Pagamento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informações</controllingFieldValue>
+            <valueName>Solicitação de Exclusão de Prazos de Pagamento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informações</controllingFieldValue>
+            <valueName>Cadastro de Produtos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informações</controllingFieldValue>
+            <valueName>Alteração de Valor de Pedido mínimo do Site</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informações</controllingFieldValue>
+            <valueName>Pagamento, prazos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informações sobre pedidos</controllingFieldValue>
+            <valueName>Dúvida sobre prazo de entrega</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informações sobre pedidos</controllingFieldValue>
+            <valueName>Comprovante de Entrega</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informações sobre pedidos</controllingFieldValue>
+            <valueName>Dúvida sobre produtos comprados</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informações sobre pedidos</controllingFieldValue>
+            <valueName>Dúvida sobre promoções aplicadas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informações sobre pedidos</controllingFieldValue>
+            <valueName>Impressão de boletos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informações sobre pedidos</controllingFieldValue>
+            <valueName>Pedido cancelado pelo distribuidor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Informações sobre pedidos</controllingFieldValue>
+            <valueName>Status de pagamento</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

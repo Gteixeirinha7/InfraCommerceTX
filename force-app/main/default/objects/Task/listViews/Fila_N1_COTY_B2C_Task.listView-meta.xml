@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fila_N1_COTY_B2C_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Fila N1- COTY B2C</label>
+    <queue>Fila_N1_COTY_B2C</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

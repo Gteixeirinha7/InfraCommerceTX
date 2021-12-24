@@ -1,0 +1,40 @@
+{
+    "ticketDetails": [
+        {
+            "createdAt": "2021-08-23T17:07:51",
+            "text": "IP",
+            "type": "IP",
+            "value": "179.232.202.86"
+        }
+    ],
+    "ticketInteractionType": {
+        "id": 2,
+        "name": "Resposta"
+    },
+    "video": null,
+    "message": "Operação efetuada com sucesso",
+    "interactionId": 171932108,
+    "createdAt": "2021-08-23T17:07:51",
+    "picture": null,
+    "consumer": null,
+    "success": true,
+    "person": null,
+    "ticket": {
+        "systemStatus": {
+            "id": 8,
+            "value": "Réplica da empresa"
+        },
+        "ticketStatus": [
+            {
+                "id": 2,
+                "type": 1,
+                "value": "Respondido"
+            },
+            {
+                "id": 8,
+                "type": 2,
+                "value": "Réplica da empresa"
+            }
+        ]
+    }
+}

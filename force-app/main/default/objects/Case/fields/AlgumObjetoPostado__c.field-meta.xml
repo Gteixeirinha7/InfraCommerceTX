@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AlgumObjetoPostado__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Campo que determina se houve alguma postagem de objeto, a partir do momento em que se identifica um Número de Etiqueta em algum dos filhos &quot;Objeto Postagem Reversa&quot;</description>
+    <externalId>false</externalId>
+    <label>Algum objeto foi postado na reversa?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

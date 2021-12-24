@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TipodeTabulacao__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de Tabulação</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Tipo</fullName>
+                <default>false</default>
+                <label>Tipo</label>
+            </value>
+            <value>
+                <fullName>Motivo</fullName>
+                <default>false</default>
+                <label>Motivo</label>
+            </value>
+            <value>
+                <fullName>Submotivo</fullName>
+                <default>false</default>
+                <label>Submotivo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

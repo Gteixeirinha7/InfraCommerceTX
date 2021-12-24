@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SefazFreigthType__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de Frete</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>F</fullName>
+                <default>false</default>
+                <label>FOB</label>
+            </value>
+            <value>
+                <fullName>C</fullName>
+                <default>false</default>
+                <label>CIF</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ResolutionPerformed__c</fullName>
+    <description>Campo que informa a tratativa realizada no caso.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Informar a tratativa realizada no caso.</inlineHelpText>
+    <label>Tratativa realizada</label>
+    <length>32000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

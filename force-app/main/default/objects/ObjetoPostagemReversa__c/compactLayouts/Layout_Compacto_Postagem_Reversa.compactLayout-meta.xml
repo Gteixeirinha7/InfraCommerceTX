@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Layout_Compacto_Postagem_Reversa</fullName>
+    <fields>idObjetoColeta__c</fields>
+    <fields>OrderItem__c</fields>
+    <fields>NumeroEtiqueta__c</fields>
+    <fields>UltimoStatusRastreamento__c</fields>
+    <fields>EnvioConcluido__c</fields>
+    <label>Layout Compacto Postagem Reversa</label>
+</CompactLayout>

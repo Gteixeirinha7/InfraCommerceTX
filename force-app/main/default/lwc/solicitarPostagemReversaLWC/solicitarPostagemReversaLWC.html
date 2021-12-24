@@ -1,0 +1,105 @@
+<template>
+    <lightning-card title="Lista de Produtos do Pedido relacionado ao Caso">
+        <div class="slds-grid slds-gutters">
+            <div class="slds-col">
+                <span></span>
+            </div>
+            <div class="slds-col">
+                <span>
+                    <lightning-button label="Solicitar Postagem Reversa" onclick={requestReversePost} style="margin-left: 40%" variant="brand"></lightning-button>
+                </span>
+            </div>
+        </div><br/>
+        <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+            <thead>
+                <tr class="slds-line-height_reset">
+                    <th class="" scope="col">
+                        <div class="slds-truncate">
+                            <lightning-input onchange={allSelected} type="checkbox"></lightning-input>
+                        </div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Name">Nome do Produto</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="First Name">Preço</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Last Name">Quantidade</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Phone">Sku</div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <template for:each={data} for:item="orderItem">
+                    <tr key={orderItem.id}>
+                        <th scope="col">
+                            <div>
+                                <lightning-input type="checkbox" value={orderItem.productName} data-id={orderItem.id}></lightning-input>
+                            </div>
+                        </th>
+                        <th scope="col">
+                            <div>{orderItem.productName}</div>
+                        </th>
+                        <th scope="col">
+                            <div>{orderItem.price}</div>
+                        </th>
+                        <th scope="col">
+                            <div>{orderItem.quantity}</div>
+                        </th>
+                        <th scope="col">
+                            <div>{orderItem.sku}</div>
+                        </th>
+                    </tr>
+                </template>
+            </tbody>
+        </table>
+
+        <!--
+            This modal box used to show the selected contacts
+        -->
+
+        <div if:true={selectedItems}>
+            <template if:true={bShowModal}>
+                <section aria-describedby="modal-content-id-1" aria-labelledby="modal-heading-01" aria-modal="true" class="slds-modal slds-fade-in-open" role="dialog" tabindex="-1">
+                    <div
+                        class="slds-modal__container">
+                        <!-- modal header start -->
+                        <header class="slds-modal__header">
+                            <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" onclick={closeModal} title="Close">
+                                <lightning-icon alternative-text="close" icon-name="utility:close" size="small" variant="inverse"></lightning-icon>
+                                <span class="slds-assistive-text">Close</span>
+                            </button>
+                            <h2 class="slds-text-heading_medium slds-hyphenate" id="modal-heading-01">Solicitação de Postagem Reversa</h2>
+                        </header>
+                        <!-- modal body start -->
+                        <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                            <dl class="slds-list_horizontal slds-wrap">
+                                <p>{error}</p>
+                            </dl>
+                            <!-- <template for:each={selectedItems} for:item="orderItem">
+                                <dl class="slds-list_horizontal slds-wrap" if:true={orderItem.Id} key={orderItem.Id}>
+                                    <dt class="slds-item_label slds-truncate" title="First Name">Product Name:</dt>
+                                    <dd class="slds-item_detail slds-truncate">{orderItem.Name}</dd>
+                                    <dt class="slds-item_label slds-truncate" title="LastName">OrderItem Id:</dt>
+                                    <dd class="slds-item_detail slds-truncate">{orderItem.Id}</dd>
+                                    <hr></dl>
+                                </template> -->
+                            </div>
+                            <!-- modal footer start-->
+                            <footer class="slds-modal__footer">
+                                <button class="slds-button slds-button_neutral" onclick={closeModal}>Cancel</button>
+                            </footer>
+                        </div>
+                    </div>
+                </section>
+                <div class="slds-backdrop slds-backdrop_open"></div>
+            </template>
+        </div>
+    </lightning-card>
+    <div if:true={showLoading}>
+        <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+    </div>
+</template>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Caso de Estorno</fullName>
+    <description>Processo de Suporte para casos de Estorno</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Critical</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Em atendimento</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Em espera</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Fechado</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Novo</fullName>
+        <default>true</default>
+    </values>
+</BusinessProcess>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EnderecoCD__c</fullName>
+    <externalId>false</externalId>
+    <formula>LogradouroCD__c &amp; &quot;, &quot; &amp; NumeroCD__c &amp; &quot;, &quot; &amp; ComplementoCD__c &amp; BR() &amp;
+&quot;CEP: &quot; &amp; CepCD__c &amp; &quot; - &quot; &amp; BairroCD__c &amp; BR() &amp;
+CidadeCD__c &amp; &quot;/&quot; &amp; TEXT(UFCD__c)</formula>
+    <label>Endereço do CD</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

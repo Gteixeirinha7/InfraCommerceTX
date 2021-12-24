@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProtocolType__c</fullName>
+    <description>Tipo de protocolo enviado para o iHub na Api de Protocol.
+Tipos  exchange or return.</description>
+    <externalId>false</externalId>
+    <label>Tipo de  Protocolo</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NoProtocoliHub</fullName>
+                <default>true</default>
+                <label>Sem Protocolo Troca/Devolução</label>
+            </value>
+            <value>
+                <fullName>return</fullName>
+                <default>false</default>
+                <label>Devolução</label>
+            </value>
+            <value>
+                <fullName>exchange</fullName>
+                <default>false</default>
+                <label>Troca</label>
+            </value>
+            <value>
+                <fullName>Ruptura</fullName>
+                <default>false</default>
+                <label>Ruptura</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

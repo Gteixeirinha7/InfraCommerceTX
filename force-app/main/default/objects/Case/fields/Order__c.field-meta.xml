@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Order__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Relacionamento com o Pedido do Cliente.</description>
+    <externalId>false</externalId>
+    <label>Pedido</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Order.AccountId</field>
+            <operation>equals</operation>
+            <valueField>$Source.AccountId</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Order</referenceTo>
+    <relationshipLabel>Casos (Pedido)</relationshipLabel>
+    <relationshipName>OrderCase</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

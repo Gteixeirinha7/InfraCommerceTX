@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fila_N3_MARKETPLACE_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Fila N3- MARKETPLACE</label>
+    <queue>Fila_N3_MARKETPLACE</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

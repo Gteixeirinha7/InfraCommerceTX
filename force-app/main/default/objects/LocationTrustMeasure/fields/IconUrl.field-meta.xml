@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IconUrl</fullName>
+    <inlineHelpText>O URL em que seu ícone está hospedado. Você deve criar e hospedar o ícone para cada medida de confiança.</inlineHelpText>
+</CustomField>

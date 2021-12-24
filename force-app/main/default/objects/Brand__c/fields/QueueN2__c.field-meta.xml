@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QueueN2__c</fullName>
+    <description>O nome da Fila de N2 que essa Marca utiliza, será necessário para automação da Fila.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>O nome da Fila de N2 que essa Marca utiliza, será necessário para automação da Fila.</inlineHelpText>
+    <label>Nome da Fila de N2</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

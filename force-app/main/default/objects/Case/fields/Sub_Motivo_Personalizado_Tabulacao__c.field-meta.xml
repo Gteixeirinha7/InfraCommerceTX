@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Motivo_Personalizado_Tabulacao__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Sub-Motivo Personalizado Tabulação</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>$Source.Marca__c</field>
+            <operation>equals</operation>
+            <valueField>TabulacaoCaso__c.Marca__c</valueField>
+        </filterItems>
+        <filterItems>
+            <field>TabulacaoCaso__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Sub-Motivo</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>TabulacaoCaso__c</referenceTo>
+    <relationshipLabel>Casos (Sub-Motivo Personalizado Tabulação)</relationshipLabel>
+    <relationshipName>Casos2</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

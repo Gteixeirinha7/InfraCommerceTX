@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LayoutCompCaso</fullName>
+    <fields>Subject</fields>
+    <fields>CaseNumber</fields>
+    <fields>Priority</fields>
+    <fields>Marca__c</fields>
+    <fields>TaskQueueName__c</fields>
+    <fields>Status</fields>
+    <label>LayoutCompCaso</label>
+</CompactLayout>

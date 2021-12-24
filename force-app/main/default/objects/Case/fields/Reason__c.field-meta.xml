@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Motivo do Caso</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Status do pagamento</fullName>
+                <default>false</default>
+                <label>Status do pagamento</label>
+            </value>
+            <value>
+                <fullName>Status da entrega-CD</fullName>
+                <default>false</default>
+                <label>Status da entrega-CD</label>
+            </value>
+            <value>
+                <fullName>Status da entrega-Transporte</fullName>
+                <default>false</default>
+                <label>Status da entrega-Transporte</label>
+            </value>
+            <value>
+                <fullName>Cliente atesta não conformidade</fullName>
+                <default>false</default>
+                <label>Cliente atesta não conformidade</label>
+            </value>
+            <value>
+                <fullName>Cliente não gostou do produto</fullName>
+                <default>false</default>
+                <label>Cliente não gostou do produto</label>
+            </value>
+            <value>
+                <fullName>Status reversa</fullName>
+                <default>false</default>
+                <label>Status reversa</label>
+            </value>
+            <value>
+                <fullName>Conta</fullName>
+                <default>false</default>
+                <label>Conta</label>
+            </value>
+            <value>
+                <fullName>Erro</fullName>
+                <default>false</default>
+                <label>Erro</label>
+            </value>
+            <value>
+                <fullName>Produto</fullName>
+                <default>false</default>
+                <label>Produto</label>
+            </value>
+            <value>
+                <fullName>Equipe</fullName>
+                <default>false</default>
+                <label>Equipe</label>
+            </value>
+            <value>
+                <fullName>Localização</fullName>
+                <default>false</default>
+                <label>Localização</label>
+            </value>
+            <value>
+                <fullName>Promoções</fullName>
+                <default>false</default>
+                <label>Promoções</label>
+            </value>
+            <value>
+                <fullName>Parceria</fullName>
+                <default>false</default>
+                <label>Parceria</label>
+            </value>
+            <value>
+                <fullName>Dúvidas Loja Física</fullName>
+                <default>false</default>
+                <label>Dúvidas Loja Física</label>
+            </value>
+            <value>
+                <fullName>Assistência Técnica</fullName>
+                <default>false</default>
+                <label>Assistência Técnica</label>
+            </value>
+            <value>
+                <fullName>Institucional Marca</fullName>
+                <default>false</default>
+                <label>Institucional Marca</label>
+            </value>
+            <value>
+                <fullName>SAC Infra</fullName>
+                <default>false</default>
+                <label>SAC Infra</label>
+            </value>
+            <value>
+                <fullName>SAC Terceiro</fullName>
+                <default>false</default>
+                <label>SAC Terceiro</label>
+            </value>
+            <value>
+                <fullName>Atendimento Loja Física</fullName>
+                <default>false</default>
+                <label>Atendimento Loja Física</label>
+            </value>
+            <value>
+                <fullName>Atendimento Distribuidor</fullName>
+                <default>false</default>
+                <label>Atendimento Distribuidor</label>
+            </value>
+            <value>
+                <fullName>Atendimento NRP</fullName>
+                <default>false</default>
+                <label>Atendimento NRP</label>
+            </value>
+            <value>
+                <fullName>Elogio do produto</fullName>
+                <default>false</default>
+                <label>Elogio do produto</label>
+            </value>
+            <value>
+                <fullName>Elogio da marca</fullName>
+                <default>false</default>
+                <label>Elogio da marca</label>
+            </value>
+            <value>
+                <fullName>Elogio atendimento</fullName>
+                <default>false</default>
+                <label>Elogio atendimento</label>
+            </value>
+            <value>
+                <fullName>Elogio do Site</fullName>
+                <default>false</default>
+                <label>Elogio do Site</label>
+            </value>
+            <value>
+                <fullName>Elogio da Logística</fullName>
+                <default>false</default>
+                <label>Elogio da Logística</label>
+            </value>
+            <value>
+                <fullName>Elogio de Transporte</fullName>
+                <default>false</default>
+                <label>Elogio de Transporte</label>
+            </value>
+            <value>
+                <fullName>Chat</fullName>
+                <default>false</default>
+                <label>Chat</label>
+            </value>
+            <value>
+                <fullName>Telefone</fullName>
+                <default>false</default>
+                <label>Telefone</label>
+            </value>
+            <value>
+                <fullName>Whatsapp</fullName>
+                <default>false</default>
+                <label>Whatsapp</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Atendimento TI Nível 2</fullName>
+                <default>false</default>
+                <label>Atendimento TI Nível 2</label>
+            </value>
+            <value>
+                <fullName>Atualização de Estrutura</fullName>
+                <default>false</default>
+                <label>Atualização de Estrutura</label>
+            </value>
+            <value>
+                <fullName>Bug no site</fullName>
+                <default>false</default>
+                <label>Bug no site</label>
+            </value>
+            <value>
+                <fullName>Correção</fullName>
+                <default>false</default>
+                <label>Correção</label>
+            </value>
+            <value>
+                <fullName>Cupom não funciona</fullName>
+                <default>false</default>
+                <label>Cupom não funciona</label>
+            </value>
+            <value>
+                <fullName>Informações</fullName>
+                <default>false</default>
+                <label>Informações</label>
+            </value>
+            <value>
+                <fullName>Informações sobre pedidos</fullName>
+                <default>false</default>
+                <label>Informações sobre pedidos</label>
+            </value>
+            <value>
+                <fullName>Integração de Limite</fullName>
+                <default>false</default>
+                <label>Integração de Limite</label>
+            </value>
+            <value>
+                <fullName>Integração de pagamento</fullName>
+                <default>false</default>
+                <label>Integração de pagamento</label>
+            </value>
+            <value>
+                <fullName>Integração de pedido</fullName>
+                <default>false</default>
+                <label>Integração de pedido</label>
+            </value>
+            <value>
+                <fullName>Integração de preço</fullName>
+                <default>false</default>
+                <label>Integração de preço</label>
+            </value>
+            <value>
+                <fullName>Integração de produto</fullName>
+                <default>false</default>
+                <label>Integração de produto</label>
+            </value>
+            <value>
+                <fullName>Integração de tracking</fullName>
+                <default>false</default>
+                <label>Integração de tracking</label>
+            </value>
+            <value>
+                <fullName>Problema com lista sugerida</fullName>
+                <default>false</default>
+                <label>Problema com lista sugerida</label>
+            </value>
+            <value>
+                <fullName>Rever aprovação</fullName>
+                <default>false</default>
+                <label>Rever aprovação</label>
+            </value>
+            <value>
+                <fullName>Spam</fullName>
+                <default>false</default>
+                <label>Spam</label>
+            </value>
+            <value>
+                <fullName>Outros</fullName>
+                <default>false</default>
+                <label>Outros</label>
+            </value>
+            <value>
+                <fullName>PriceChange</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Alteração no preço</label>
+            </value>
+            <value>
+                <fullName>RiskAnalysis</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Analise de risco</label>
+            </value>
+            <value>
+                <fullName>CepNotAttendedByDistributor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CEP não atendida por distribuidor</label>
+            </value>
+            <value>
+                <fullName>CepNotAttended</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CEP não atendido</label>
+            </value>
+            <value>
+                <fullName>CepNotFound</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CEP não localizado</label>
+            </value>
+            <value>
+                <fullName>OfflineChat</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Chat desconectado</label>
+            </value>
+            <value>
+                <fullName>HowAccessAccount</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Como acessar a conta</label>
+            </value>
+            <value>
+                <fullName>IncompleteProductDescription</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Descrição do produto incompleta</label>
+            </value>
+            <value>
+                <fullName>IncorrectProductDescription</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Descrição do produto incorreta</label>
+            </value>
+            <value>
+                <fullName>DifficultyInNavigation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Dificuldade na navegação</label>
+            </value>
+            <value>
+                <fullName>DivergentDetailPhoto</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Foto detalhe divergente</label>
+            </value>
+            <value>
+                <fullName>DivergentModelPhoto</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Foto modelo divergente</label>
+            </value>
+            <value>
+                <fullName>DivergentPhotoTint</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Foto tonalidade divergente</label>
+            </value>
+            <value>
+                <fullName>UnregisteredEmployee</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Funcionário não cadastrado</label>
+            </value>
+            <value>
+                <fullName>UnavailabilityWebsite</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Indisponibilidade no site</label>
+            </value>
+            <value>
+                <fullName>SlowDownOnWebsite</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lentidão no site</label>
+            </value>
+            <value>
+                <fullName>MuteCall</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ligação muda</label>
+            </value>
+            <value>
+                <fullName>LostCall</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ligação perdida</label>
+            </value>
+            <value>
+                <fullName>LimitNotUpdated</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Limite não atualizado</label>
+            </value>
+            <value>
+                <fullName>OrderDoesNotAppear</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Não aparece o pedido</label>
+            </value>
+            <value>
+                <fullName>CannotAccessAccount</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Não consegue acessar a conta</label>
+            </value>
+            <value>
+                <fullName>DidNotReceiveAuthenticationCode</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Não recebeu código de autenticação</label>
+            </value>
+            <value>
+                <fullName>DeliveryTime</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Prazo de entrega</label>
+            </value>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Preço</label>
+            </value>
+            <value>
+                <fullName>AdverseReaction</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reação adversa</label>
+            </value>
+            <value>
+                <fullName>WebsiteUnavailable</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Site indisponível</label>
+            </value>
+            <value>
+                <fullName>RequestChangeAccountData</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Solicita alteração de dados da conta</label>
+            </value>
+            <value>
+                <fullName>RequestPasswordReset</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Solicita reset de senha</label>
+            </value>
+            <value>
+                <fullName>MeasurementChart</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tabela de medidas</label>
+            </value>
+            <value>
+                <fullName>CostFreight</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Valor do frete</label>
+            </value>
+            <value>
+                <fullName>DueDateNear</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Vencimento Próximo</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Reclamação de Atendimento</controllingFieldValue>
+            <valueName>SAC Infra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reclamação de Atendimento</controllingFieldValue>
+            <valueName>SAC Terceiro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reclamação de Atendimento</controllingFieldValue>
+            <valueName>Atendimento Loja Física</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reclamação de Atendimento</controllingFieldValue>
+            <valueName>Atendimento Distribuidor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reclamação de Atendimento</controllingFieldValue>
+            <valueName>Atendimento NRP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elogios</controllingFieldValue>
+            <valueName>Elogio do produto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elogios</controllingFieldValue>
+            <valueName>Elogio da marca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elogios</controllingFieldValue>
+            <valueName>Elogio atendimento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elogios</controllingFieldValue>
+            <valueName>Elogio do Site</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elogios</controllingFieldValue>
+            <valueName>Elogio da Logística</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elogios</controllingFieldValue>
+            <valueName>Elogio de Transporte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Improdutivo</controllingFieldValue>
+            <valueName>Chat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Improdutivo</controllingFieldValue>
+            <valueName>Telefone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Improdutivo</controllingFieldValue>
+            <valueName>Whatsapp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Improdutivo</controllingFieldValue>
+            <valueName>Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Atendimento TI Nível 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Atualização de Estrutura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Bug no site</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Correção</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Cupom não funciona</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Informações</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Informações sobre pedidos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Integração de Limite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Integração de pagamento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Integração de pedido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Integração de preço</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Integração de produto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Integração de tracking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Problema com lista sugerida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Rever aprovação</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Spam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Outros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atendimento sobre o Pedido</controllingFieldValue>
+            <valueName>Status do pagamento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atendimento sobre o Pedido</controllingFieldValue>
+            <valueName>Status da entrega-CD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atendimento sobre o Pedido</controllingFieldValue>
+            <valueName>Status da entrega-Transporte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atendimento sobre a Troca</controllingFieldValue>
+            <controllingFieldValue>Atendimento sobre a Devolução</controllingFieldValue>
+            <valueName>Cliente atesta não conformidade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atendimento sobre a Troca</controllingFieldValue>
+            <controllingFieldValue>Atendimento sobre a Devolução</controllingFieldValue>
+            <valueName>Cliente não gostou do produto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atendimento sobre a Troca</controllingFieldValue>
+            <controllingFieldValue>Atendimento sobre a Devolução</controllingFieldValue>
+            <valueName>Status reversa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dúvidas sobre Site</controllingFieldValue>
+            <valueName>Conta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dúvidas sobre Site</controllingFieldValue>
+            <valueName>Erro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dúvidas sobre Site</controllingFieldValue>
+            <valueName>Produto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dúvidas sobre Distribuidor</controllingFieldValue>
+            <valueName>Equipe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dúvidas sobre Distribuidor</controllingFieldValue>
+            <valueName>Localização</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dúvidas sobre a Marca</controllingFieldValue>
+            <valueName>Promoções</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dúvidas sobre a Marca</controllingFieldValue>
+            <valueName>Parceria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dúvidas sobre a Marca</controllingFieldValue>
+            <valueName>Dúvidas Loja Física</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dúvidas sobre a Marca</controllingFieldValue>
+            <valueName>Assistência Técnica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dúvidas sobre a Marca</controllingFieldValue>
+            <valueName>Institucional Marca</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

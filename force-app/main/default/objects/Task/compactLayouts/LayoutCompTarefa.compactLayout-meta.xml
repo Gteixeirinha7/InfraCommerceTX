@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LayoutCompTarefa</fullName>
+    <fields>Subject</fields>
+    <fields>Status</fields>
+    <fields>Parecer__c</fields>
+    <fields>WhatId</fields>
+    <fields>OwnerId</fields>
+    <label>LayoutCompTarefa</label>
+</CompactLayout>

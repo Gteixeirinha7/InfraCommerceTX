@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Procedure_Warnings__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Use este campo para capturar avisos e preparações que o atendente deve saber antes de seguir este procedimento. Por exemplo, você pode incluir os impactos potenciais ou a preparação necessária antes de seguir este procedimento.</inlineHelpText>
+    <label>Procedure Warnings</label>
+    <length>32768</length>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

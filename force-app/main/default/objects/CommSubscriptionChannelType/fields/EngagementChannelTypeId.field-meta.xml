@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EngagementChannelTypeId</fullName>
+    <inlineHelpText>O registro de tipo de canal de engajamento associado ao tipo de canal de assinatura de comunicação.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

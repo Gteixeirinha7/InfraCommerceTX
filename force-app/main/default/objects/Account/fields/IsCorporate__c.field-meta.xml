@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsCorporate__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Valida se a conta é pessoa jurídica ou pessoa física.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Informa se a conta é Pessoa Jurídica ou Pessoa física.</inlineHelpText>
+    <label>Pessoa Jurídica?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsGift__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Informa se o item é presente ou não.</description>
+    <externalId>false</externalId>
+    <label>Presente?</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

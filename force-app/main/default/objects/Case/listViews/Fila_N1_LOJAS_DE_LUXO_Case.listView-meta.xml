@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fila_N1_LOJAS_DE_LUXO_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Fila N1- LOJAS DE LUXO</label>
+    <queue>Fila_N1_LOJAS_DE_LUXO</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

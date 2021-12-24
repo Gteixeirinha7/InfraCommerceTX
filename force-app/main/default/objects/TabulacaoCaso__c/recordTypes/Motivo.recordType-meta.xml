@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo</fullName>
+    <active>true</active>
+    <label>Motivo</label>
+    <picklistValues>
+        <picklist>TipodeTabulacao__c</picklist>
+        <values>
+            <fullName>Motivo</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Submotivo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tipo</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

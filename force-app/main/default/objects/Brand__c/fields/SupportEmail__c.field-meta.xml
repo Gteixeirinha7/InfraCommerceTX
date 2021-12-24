@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SupportEmail__c</fullName>
+    <description>E-mail utilizado para o suporte da Marca.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Informar o E-mail do Suporte da Marca relacionada.</inlineHelpText>
+    <label>E-mail do Suporte</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

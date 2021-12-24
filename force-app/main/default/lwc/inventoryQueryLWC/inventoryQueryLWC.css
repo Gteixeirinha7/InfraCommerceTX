@@ -1,0 +1,10 @@
+.inventory-div {
+    width: 700px;
+}
+
+@media screen and (max-width: 700px){
+    .inventory-div {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+}

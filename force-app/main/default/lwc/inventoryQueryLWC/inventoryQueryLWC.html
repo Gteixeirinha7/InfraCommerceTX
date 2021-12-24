@@ -1,0 +1,31 @@
+<template>
+    <div class="slds-box inventory-div" style="background-color: white; margin: auto">
+        <template if:true={showSpinner}>
+            <div class="exampleHolder">
+                <lightning-spinner alternative-text="Loading" size="small"></lightning-spinner>
+            </div>
+        </template>
+        <div>
+            <div class="slds-var-m-bottom_medium slds-text-align_center slds-text-heading_medium">Selecione a Marca</div>
+        </div>
+        <div class="slds-grid gridcreate">
+            <c-custom-lookup-filter 
+                check-type="Brand" 
+                selected-record={brandObject}
+                disabled={disableBrandPicklist}
+                style="width:100%;" 
+                object-api-name="Brand__c" 
+                object-icon-name="standard:account" 
+                input-label="Marca" 
+                onselectrecord={handleSelectBrandObj} 
+                placeholder="Pesquisar Marcas..."
+                required>
+            </c-custom-lookup-filter>
+        </div>
+        <div class="slds-clearfix">
+            <div class="slds-float_right">
+                <lightning-button variant="brand" label="Verificar Estoque" onclick={handleNavigate} disabled={disabledNext}></lightning-button>
+            </div>
+        </div>
+    </div>
+</template>

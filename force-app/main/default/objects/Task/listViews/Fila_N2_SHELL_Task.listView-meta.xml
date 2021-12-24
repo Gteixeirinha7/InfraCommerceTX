@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fila_N2_SHELL_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Fila N2 - SHELL</label>
+    <queue>Fila_N2_SHELL</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

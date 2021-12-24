@@ -1,0 +1,16 @@
+.container {
+    border: 1px solid #d8dde6;
+    margin: 10px 0 20px 0;
+}
+
+.combo-box {
+    margin: 2%;
+}
+
+.finish-button {
+    margin-left: 0 !important;
+}
+
+.slds-button {
+    width: 100% !important;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DocumentType__c</fullName>
+    <description>Tipo de documento da conta para reembolso. CPF ou CNPJ.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Tipo de documento da conta para reembolso. CPF ou CNPJ.</inlineHelpText>
+    <label>Tipo de Documento</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>cpf</fullName>
+                <default>false</default>
+                <label>Cpf</label>
+            </value>
+            <value>
+                <fullName>cnpj</fullName>
+                <default>false</default>
+                <label>Cnpj</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

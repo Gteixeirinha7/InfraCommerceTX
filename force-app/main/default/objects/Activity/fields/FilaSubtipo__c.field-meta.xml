@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FilaSubtipo__c</fullName>
+    <externalId>false</externalId>
+    <label>Fila Sub-tipo</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Fila__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cupom</fullName>
+                <default>false</default>
+                <label>Cupom</label>
+            </value>
+            <value>
+                <fullName>Erro no site</fullName>
+                <default>false</default>
+                <label>Erro no site</label>
+            </value>
+            <value>
+                <fullName>Integracao de pedido</fullName>
+                <default>false</default>
+                <label>Integração de pedido</label>
+            </value>
+            <value>
+                <fullName>Crossdocking</fullName>
+                <default>false</default>
+                <label>Crossdocking</label>
+            </value>
+            <value>
+                <fullName>Cotação</fullName>
+                <default>false</default>
+                <label>Cotação</label>
+            </value>
+            <value>
+                <fullName>Autorização</fullName>
+                <default>false</default>
+                <label>Autorização</label>
+            </value>
+            <value>
+                <fullName>Alteração no Cadastro</fullName>
+                <default>false</default>
+                <label>Alteração no Cadastro</label>
+            </value>
+            <value>
+                <fullName>Descrição de produto</fullName>
+                <default>false</default>
+                <label>Descrição de produto</label>
+            </value>
+            <value>
+                <fullName>Falha no APP</fullName>
+                <default>false</default>
+                <label>Falha no APP</label>
+            </value>
+            <value>
+                <fullName>Falha no Whatsapp</fullName>
+                <default>false</default>
+                <label>Falha no Whatsapp</label>
+            </value>
+            <value>
+                <fullName>Venda assistida</fullName>
+                <default>false</default>
+                <label>Venda assistida</label>
+            </value>
+            <value>
+                <fullName>Guide Shop</fullName>
+                <default>false</default>
+                <label>Guide Shop</label>
+            </value>
+            <value>
+                <fullName>Aguardando Reembolso</fullName>
+                <default>false</default>
+                <label>Aguardando Reembolso</label>
+            </value>
+            <value>
+                <fullName>Aguardando Vale</fullName>
+                <default>false</default>
+                <label>Aguardando Vale</label>
+            </value>
+            <value>
+                <fullName>Aguardando Estorno</fullName>
+                <default>false</default>
+                <label>Aguardando Estorno</label>
+            </value>
+            <value>
+                <fullName>Aguardando Comprovante</fullName>
+                <default>false</default>
+                <label>Aguardando Comprovante</label>
+            </value>
+            <value>
+                <fullName>Aprovar Pedidos</fullName>
+                <default>false</default>
+                <label>Aprovar Pedidos</label>
+            </value>
+            <value>
+                <fullName>Confirmar Pagamento</fullName>
+                <default>false</default>
+                <label>Confirmar Pagamento</label>
+            </value>
+            <value>
+                <fullName>Cancelar Vale</fullName>
+                <default>false</default>
+                <label>Cancelar Vale</label>
+            </value>
+            <value>
+                <fullName>Reativar Vale</fullName>
+                <default>false</default>
+                <label>Reativar Vale</label>
+            </value>
+            <value>
+                <fullName>2° via de Boleto</fullName>
+                <default>false</default>
+                <label>2° via de Boleto</label>
+            </value>
+            <value>
+                <fullName>Abatimento de Boleto</fullName>
+                <default>false</default>
+                <label>Abatimento de Boleto</label>
+            </value>
+            <value>
+                <fullName>Prorrogação de Boleto</fullName>
+                <default>false</default>
+                <label>Prorrogação de Boleto</label>
+            </value>
+            <value>
+                <fullName>Erro Pix</fullName>
+                <default>false</default>
+                <label>Erro Pix</label>
+            </value>
+            <value>
+                <fullName>Aumento do Limite de Crédito</fullName>
+                <default>false</default>
+                <label>Aumento do Limite de Crédito</label>
+            </value>
+            <value>
+                <fullName>Revisão do Limite de Crédito</fullName>
+                <default>false</default>
+                <label>Revisão do Limite de Crédito</label>
+            </value>
+            <value>
+                <fullName>Aguardando PI</fullName>
+                <default>false</default>
+                <label>Aguardando PI</label>
+            </value>
+            <value>
+                <fullName>Acareação</fullName>
+                <default>false</default>
+                <label>Acareação</label>
+            </value>
+            <value>
+                <fullName>Atraso na entrega</fullName>
+                <default>false</default>
+                <label>Atraso na entrega</label>
+            </value>
+            <value>
+                <fullName>Aprovação de extravio</fullName>
+                <default>false</default>
+                <label>Aprovação de extravio</label>
+            </value>
+            <value>
+                <fullName>Retido na fiscalização</fullName>
+                <default>false</default>
+                <label>Retido na fiscalização</label>
+            </value>
+            <value>
+                <fullName>Atualização de rastreamento</fullName>
+                <default>false</default>
+                <label>Atualização de rastreamento</label>
+            </value>
+            <value>
+                <fullName>CEP não foi atendido</fullName>
+                <default>false</default>
+                <label>CEP não foi atendido</label>
+            </value>
+            <value>
+                <fullName>Reclamação de entregador</fullName>
+                <default>false</default>
+                <label>Reclamação de entregador</label>
+            </value>
+            <value>
+                <fullName>Cotação Frete e transportadora</fullName>
+                <default>false</default>
+                <label>Cotação Frete e transportadora</label>
+            </value>
+            <value>
+                <fullName>Avaria</fullName>
+                <default>false</default>
+                <label>Avaria</label>
+            </value>
+            <value>
+                <fullName>Entrega fracionada</fullName>
+                <default>false</default>
+                <label>Entrega fracionada</label>
+            </value>
+            <value>
+                <fullName>Extravio PI - Reembolo IFC</fullName>
+                <default>false</default>
+                <label>Extravio PI - Reembolo IFC</label>
+            </value>
+            <value>
+                <fullName>Reversa Devolução</fullName>
+                <default>false</default>
+                <label>Reversa Devolução</label>
+            </value>
+            <value>
+                <fullName>Falta de Item</fullName>
+                <default>false</default>
+                <label>Falta de Item</label>
+            </value>
+            <value>
+                <fullName>Pedido parado no CD</fullName>
+                <default>false</default>
+                <label>Pedido parado no CD</label>
+            </value>
+            <value>
+                <fullName>Pedido parado na personalização</fullName>
+                <default>false</default>
+                <label>Pedido parado na personalização</label>
+            </value>
+            <value>
+                <fullName>Liberar pedido parcial por ruptura</fullName>
+                <default>false</default>
+                <label>Liberar pedido parcial por ruptura</label>
+            </value>
+            <value>
+                <fullName>Cancelamento por ruptura</fullName>
+                <default>false</default>
+                <label>Cancelamento por ruptura</label>
+            </value>
+            <value>
+                <fullName>Verificação no produto</fullName>
+                <default>false</default>
+                <label>Verificação no produto</label>
+            </value>
+            <value>
+                <fullName>Liberar cancelamento do pedido</fullName>
+                <default>false</default>
+                <label>Liberar cancelamento do pedido</label>
+            </value>
+            <value>
+                <fullName>Barrar pedido faturado</fullName>
+                <default>false</default>
+                <label>Barrar pedido faturado</label>
+            </value>
+            <value>
+                <fullName>Retorno de tarefa na reversa</fullName>
+                <default>false</default>
+                <label>Retorno de tarefa na reversa</label>
+            </value>
+            <value>
+                <fullName>Correção de tarefa na reversa</fullName>
+                <default>false</default>
+                <label>Correção de tarefa na reversa</label>
+            </value>
+            <value>
+                <fullName>Aguardando check in reversa</fullName>
+                <default>false</default>
+                <label>Aguardando check in reversa</label>
+            </value>
+            <value>
+                <fullName>Devolver produto para o cliente</fullName>
+                <default>false</default>
+                <label>Devolver produto para o cliente</label>
+            </value>
+            <value>
+                <fullName>Suporte ao entregador</fullName>
+                <default>false</default>
+                <label>Suporte ao entregador</label>
+            </value>
+            <value>
+                <fullName>2° via de Nota Fiscal</fullName>
+                <default>false</default>
+                <label>2° via de Nota Fiscal</label>
+            </value>
+            <value>
+                <fullName>Aguardando crossdocking</fullName>
+                <default>false</default>
+                <label>Aguardando crossdocking</label>
+            </value>
+            <value>
+                <fullName>Previsão de entrega Darkstore</fullName>
+                <default>false</default>
+                <label>Previsão de entrega Darkstore</label>
+            </value>
+            <value>
+                <fullName>Status pedido Darkstore</fullName>
+                <default>false</default>
+                <label>Status pedido Darkstore</label>
+            </value>
+            <value>
+                <fullName>Estoque Darkstore</fullName>
+                <default>false</default>
+                <label>Estoque Darkstore</label>
+            </value>
+            <value>
+                <fullName>Contato/Visita de representante</fullName>
+                <default>false</default>
+                <label>Contato/Visita de representante</label>
+            </value>
+            <value>
+                <fullName>Limite de crédito</fullName>
+                <default>false</default>
+                <label>Limite de crédito</label>
+            </value>
+            <value>
+                <fullName>Aprovação de cadastro</fullName>
+                <default>false</default>
+                <label>Aprovação de cadastro</label>
+            </value>
+            <value>
+                <fullName>Envio de catálogo</fullName>
+                <default>false</default>
+                <label>Envio de catálogo</label>
+            </value>
+            <value>
+                <fullName>Confirmação entrega</fullName>
+                <default>false</default>
+                <label>Confirmação entrega</label>
+            </value>
+            <value>
+                <fullName>Ruptura</fullName>
+                <default>false</default>
+                <label>Ruptura</label>
+            </value>
+            <value>
+                <fullName>Boleto</fullName>
+                <default>false</default>
+                <label>Boleto</label>
+            </value>
+            <value>
+                <fullName>Nota Fiscal</fullName>
+                <default>false</default>
+                <label>Nota Fiscal</label>
+            </value>
+            <value>
+                <fullName>Reclamação</fullName>
+                <default>false</default>
+                <label>Reclamação</label>
+            </value>
+            <value>
+                <fullName>Falta item</fullName>
+                <default>false</default>
+                <label>Falta item</label>
+            </value>
+            <value>
+                <fullName>Retirada/Entrega de equipamento</fullName>
+                <default>false</default>
+                <label>Retirada/Entrega de equipamento</label>
+            </value>
+            <value>
+                <fullName>Erro Venda assistida</fullName>
+                <default>false</default>
+                <label>Erro Venda assistida</label>
+            </value>
+            <value>
+                <fullName>Alterar workflow tarefa</fullName>
+                <default>false</default>
+                <label>Alterar workflow tarefa</label>
+            </value>
+            <value>
+                <fullName>Alterar workflow pedido</fullName>
+                <default>false</default>
+                <label>Alterar workflow pedido</label>
+            </value>
+            <value>
+                <fullName>Fechar tarefa</fullName>
+                <default>false</default>
+                <label>Fechar tarefa</label>
+            </value>
+            <value>
+                <fullName>Recriar pedido</fullName>
+                <default>false</default>
+                <label>Recriar pedido</label>
+            </value>
+            <value>
+                <fullName>Cancelar pedido</fullName>
+                <default>false</default>
+                <label>Cancelar pedido</label>
+            </value>
+            <value>
+                <fullName>Falha integração de e-mail</fullName>
+                <default>false</default>
+                <label>Falha integração de e-mail</label>
+            </value>
+            <value>
+                <fullName>Aguardando mediação</fullName>
+                <default>false</default>
+                <label>Aguardando mediação</label>
+            </value>
+            <value>
+                <fullName>Instabildiade/ Atualização plataforma</fullName>
+                <default>false</default>
+                <label>Instabildiade/ Atualização plataforma</label>
+            </value>
+            <value>
+                <fullName>Liberar Instância na plataforma</fullName>
+                <default>false</default>
+                <label>Liberar Instância na plataforma</label>
+            </value>
+            <value>
+                <fullName>Aguardando avaliação</fullName>
+                <default>false</default>
+                <label>Aguardando avaliação</label>
+            </value>
+            <value>
+                <fullName>Confirmar dados bancários</fullName>
+                <default>false</default>
+                <label>Confirmar dados bancários</label>
+            </value>
+            <value>
+                <fullName>Decidir indisponibilidade</fullName>
+                <default>false</default>
+                <label>Decidir indisponibilidade</label>
+            </value>
+            <value>
+                <fullName>Confirmar itens devolvidos</fullName>
+                <default>false</default>
+                <label>Confirmar itens devolvidos</label>
+            </value>
+            <value>
+                <fullName>Revisar produto de troca</fullName>
+                <default>false</default>
+                <label>Revisar produto de troca</label>
+            </value>
+            <value>
+                <fullName>Confirmar endereço</fullName>
+                <default>false</default>
+                <label>Confirmar endereço</label>
+            </value>
+            <value>
+                <fullName>Agendamento de entrega</fullName>
+                <default>false</default>
+                <label>Agendamento de entrega</label>
+            </value>
+            <value>
+                <fullName>Confirmar horário de coleta</fullName>
+                <default>false</default>
+                <label>Confirmar horário de coleta</label>
+            </value>
+            <value>
+                <fullName>Confirma forma de restituição</fullName>
+                <default>false</default>
+                <label>Confirma forma de restituição</label>
+            </value>
+            <value>
+                <fullName>Enviar evidências</fullName>
+                <default>false</default>
+                <label>Enviar evidências</label>
+            </value>
+            <value>
+                <fullName>Decidir sobre insucesso</fullName>
+                <default>false</default>
+                <label>Decidir sobre insucesso</label>
+            </value>
+            <value>
+                <fullName>Aguardando retirada nos Correios</fullName>
+                <default>false</default>
+                <label>Aguardando retirada nos Correios</label>
+            </value>
+            <value>
+                <fullName>Aguardando postagem</fullName>
+                <default>false</default>
+                <label>Aguardando postagem</label>
+            </value>
+            <value>
+                <fullName>Evidências - Foto, print</fullName>
+                <default>false</default>
+                <label>Evidências - Foto, print</label>
+            </value>
+            <value>
+                <fullName>Confirmar estoque</fullName>
+                <default>false</default>
+                <label>Confirmar estoque</label>
+            </value>
+            <value>
+                <fullName>Abertura de PI</fullName>
+                <default>false</default>
+                <label>Abertura de PI</label>
+            </value>
+            <value>
+                <fullName>Resposta do PI</fullName>
+                <default>false</default>
+                <label>Resposta do PI</label>
+            </value>
+            <value>
+                <fullName>Corrigir endereço de entrega</fullName>
+                <default>false</default>
+                <label>Corrigir endereço de entrega</label>
+            </value>
+            <value>
+                <fullName>Alteração de cadastro - Reset de senha</fullName>
+                <default>false</default>
+                <label>Alteração de cadastro - Reset de senha</label>
+            </value>
+            <value>
+                <fullName>Abertura troca e devolução</fullName>
+                <default>false</default>
+                <label>Abertura troca e devolução</label>
+            </value>
+            <value>
+                <fullName>Envio de código de postagem</fullName>
+                <default>false</default>
+                <label>Envio de código de postagem</label>
+            </value>
+            <value>
+                <fullName>Criar pedido de complemento</fullName>
+                <default>false</default>
+                <label>Criar pedido de complemento</label>
+            </value>
+            <value>
+                <fullName>Comunicar ruptura/Falta estoque</fullName>
+                <default>false</default>
+                <label>Comunicar ruptura/Falta estoque</label>
+            </value>
+            <value>
+                <fullName>Solicitação de Dados Bancários</fullName>
+                <default>false</default>
+                <label>Solicitação de Dados Bancários</label>
+            </value>
+            <value>
+                <fullName>Devolução sem processo</fullName>
+                <default>false</default>
+                <label>Devolução sem processo</label>
+            </value>
+            <value>
+                <fullName>Falta item na reversa</fullName>
+                <default>false</default>
+                <label>Falta item na reversa</label>
+            </value>
+            <value>
+                <fullName>Retorno KA</fullName>
+                <default>false</default>
+                <label>Retorno KA</label>
+            </value>
+            <value>
+                <fullName>Retorno Financeiro</fullName>
+                <default>false</default>
+                <label>Retorno Financeiro</label>
+            </value>
+            <value>
+                <fullName>Retorno Logística</fullName>
+                <default>false</default>
+                <label>Retorno Logística</label>
+            </value>
+            <value>
+                <fullName>Retorno Transportes</fullName>
+                <default>false</default>
+                <label>Retorno Transportes</label>
+            </value>
+            <value>
+                <fullName>Retorno Marca</fullName>
+                <default>false</default>
+                <label>Retorno Marca</label>
+            </value>
+            <value>
+                <fullName>Retorno Tech</fullName>
+                <default>false</default>
+                <label>Retorno Tech</label>
+            </value>
+            <value>
+                <fullName>Callback</fullName>
+                <default>false</default>
+                <label>Callback</label>
+            </value>
+            <value>
+                <fullName>Aguardando integrar limite</fullName>
+                <default>false</default>
+                <label>Aguardando integrar limite</label>
+            </value>
+            <value>
+                <fullName>Aguardando integrar Pagamento</fullName>
+                <default>false</default>
+                <label>Aguardando integrar Pagamento</label>
+            </value>
+            <value>
+                <fullName>Aguardando integrar Pedido</fullName>
+                <default>false</default>
+                <label>Aguardando integrar Pedido</label>
+            </value>
+            <value>
+                <fullName>Aguardando integrar Preço</fullName>
+                <default>false</default>
+                <label>Aguardando integrar Preço</label>
+            </value>
+            <value>
+                <fullName>Aguardando integrar Produto</fullName>
+                <default>false</default>
+                <label>Aguardando integrar Produto</label>
+            </value>
+            <value>
+                <fullName>Aguardando integrar Tracking</fullName>
+                <default>false</default>
+                <label>Aguardando integrar Tracking</label>
+            </value>
+            <value>
+                <fullName>Aguardando análise do KA</fullName>
+                <default>false</default>
+                <label>Aguardando análise do KA</label>
+            </value>
+            <value>
+                <fullName>Aguardando cadastro do BI</fullName>
+                <default>false</default>
+                <label>Aguardando cadastro do BI</label>
+            </value>
+            <value>
+                <fullName>Aguardando análise do SAC</fullName>
+                <default>false</default>
+                <label>Aguardando análise do SAC</label>
+            </value>
+            <value>
+                <fullName>Aguardando análise da controladoria</fullName>
+                <default>false</default>
+                <label>Aguardando análise da controladoria</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Consumidor</controllingFieldValue>
+            <controllingFieldValue>Consumidor Marca</controllingFieldValue>
+            <valueName>Confirmar dados bancários</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumidor</controllingFieldValue>
+            <controllingFieldValue>Consumidor Marca</controllingFieldValue>
+            <valueName>Decidir indisponibilidade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumidor</controllingFieldValue>
+            <controllingFieldValue>Consumidor Marca</controllingFieldValue>
+            <valueName>Confirmar itens devolvidos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumidor</controllingFieldValue>
+            <controllingFieldValue>Consumidor Marca</controllingFieldValue>
+            <valueName>Revisar produto de troca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumidor</controllingFieldValue>
+            <controllingFieldValue>Consumidor Marca</controllingFieldValue>
+            <valueName>Confirmar endereço</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumidor</controllingFieldValue>
+            <controllingFieldValue>Consumidor Marca</controllingFieldValue>
+            <valueName>Agendamento de entrega</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumidor</controllingFieldValue>
+            <controllingFieldValue>Consumidor Marca</controllingFieldValue>
+            <valueName>Confirmar horário de coleta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumidor</controllingFieldValue>
+            <controllingFieldValue>Consumidor Marca</controllingFieldValue>
+            <valueName>Confirma forma de restituição</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumidor</controllingFieldValue>
+            <valueName>Enviar evidências</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumidor</controllingFieldValue>
+            <controllingFieldValue>Consumidor Marca</controllingFieldValue>
+            <valueName>Decidir sobre insucesso</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumidor</controllingFieldValue>
+            <controllingFieldValue>Consumidor Marca</controllingFieldValue>
+            <valueName>Aguardando retirada nos Correios</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumidor</controllingFieldValue>
+            <valueName>Aguardando postagem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financeiro Marca</controllingFieldValue>
+            <controllingFieldValue>Financeiro Infra</controllingFieldValue>
+            <valueName>Aguardando Reembolso</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financeiro Marca</controllingFieldValue>
+            <controllingFieldValue>Financeiro Infra</controllingFieldValue>
+            <valueName>Aguardando Vale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financeiro Marca</controllingFieldValue>
+            <controllingFieldValue>Financeiro Infra</controllingFieldValue>
+            <valueName>Aguardando Estorno</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financeiro Marca</controllingFieldValue>
+            <controllingFieldValue>Financeiro Infra</controllingFieldValue>
+            <valueName>Aguardando Comprovante</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financeiro Marca</controllingFieldValue>
+            <controllingFieldValue>Financeiro Infra</controllingFieldValue>
+            <valueName>Aprovar Pedidos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financeiro Marca</controllingFieldValue>
+            <controllingFieldValue>Financeiro Infra</controllingFieldValue>
+            <valueName>Confirmar Pagamento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financeiro Marca</controllingFieldValue>
+            <controllingFieldValue>Financeiro Infra</controllingFieldValue>
+            <valueName>Cancelar Vale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financeiro Marca</controllingFieldValue>
+            <controllingFieldValue>Financeiro Infra</controllingFieldValue>
+            <valueName>Reativar Vale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financeiro Marca</controllingFieldValue>
+            <controllingFieldValue>Financeiro Infra</controllingFieldValue>
+            <valueName>2° via de Boleto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financeiro Marca</controllingFieldValue>
+            <controllingFieldValue>Financeiro Infra</controllingFieldValue>
+            <valueName>Abatimento de Boleto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financeiro Marca</controllingFieldValue>
+            <controllingFieldValue>Financeiro Infra</controllingFieldValue>
+            <valueName>Prorrogação de Boleto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financeiro Marca</controllingFieldValue>
+            <controllingFieldValue>Financeiro Infra</controllingFieldValue>
+            <valueName>Erro Pix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financeiro Marca</controllingFieldValue>
+            <controllingFieldValue>Financeiro Infra</controllingFieldValue>
+            <valueName>Aumento do Limite de Crédito</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financeiro Marca</controllingFieldValue>
+            <controllingFieldValue>Financeiro Infra</controllingFieldValue>
+            <valueName>Revisão do Limite de Crédito</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumidor Marca</controllingFieldValue>
+            <valueName>Evidências - Foto, print</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumidor Marca</controllingFieldValue>
+            <valueName>Confirmar estoque</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Logística Marca</controllingFieldValue>
+            <controllingFieldValue>Logística</controllingFieldValue>
+            <controllingFieldValue>Darkstore</controllingFieldValue>
+            <valueName>Falta de Item</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Logística Marca</controllingFieldValue>
+            <controllingFieldValue>Logística</controllingFieldValue>
+            <controllingFieldValue>Darkstore</controllingFieldValue>
+            <valueName>Pedido parado no CD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Logística Marca</controllingFieldValue>
+            <controllingFieldValue>Logística</controllingFieldValue>
+            <controllingFieldValue>Darkstore</controllingFieldValue>
+            <valueName>Pedido parado na personalização</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Logística Marca</controllingFieldValue>
+            <controllingFieldValue>Logística</controllingFieldValue>
+            <controllingFieldValue>Darkstore</controllingFieldValue>
+            <valueName>Liberar pedido parcial por ruptura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Logística Marca</controllingFieldValue>
+            <controllingFieldValue>Logística</controllingFieldValue>
+            <controllingFieldValue>Darkstore</controllingFieldValue>
+            <valueName>Cancelamento por ruptura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Logística Marca</controllingFieldValue>
+            <controllingFieldValue>Logística</controllingFieldValue>
+            <controllingFieldValue>Darkstore</controllingFieldValue>
+            <valueName>Verificação no produto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Logística Marca</controllingFieldValue>
+            <controllingFieldValue>Logística</controllingFieldValue>
+            <controllingFieldValue>Darkstore</controllingFieldValue>
+            <valueName>Liberar cancelamento do pedido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Logística Marca</controllingFieldValue>
+            <controllingFieldValue>Logística</controllingFieldValue>
+            <controllingFieldValue>Darkstore</controllingFieldValue>
+            <valueName>Barrar pedido faturado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Logística Marca</controllingFieldValue>
+            <controllingFieldValue>Logística</controllingFieldValue>
+            <controllingFieldValue>Darkstore</controllingFieldValue>
+            <valueName>Retorno de tarefa na reversa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Logística Marca</controllingFieldValue>
+            <controllingFieldValue>Logística</controllingFieldValue>
+            <controllingFieldValue>Darkstore</controllingFieldValue>
+            <valueName>Correção de tarefa na reversa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Logística Marca</controllingFieldValue>
+            <controllingFieldValue>Logística</controllingFieldValue>
+            <controllingFieldValue>Darkstore</controllingFieldValue>
+            <valueName>Aguardando check in reversa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Logística Marca</controllingFieldValue>
+            <controllingFieldValue>Logística</controllingFieldValue>
+            <controllingFieldValue>Darkstore</controllingFieldValue>
+            <valueName>Devolver produto para o cliente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Logística Marca</controllingFieldValue>
+            <controllingFieldValue>Logística</controllingFieldValue>
+            <controllingFieldValue>Darkstore</controllingFieldValue>
+            <valueName>Suporte ao entregador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Logística Marca</controllingFieldValue>
+            <valueName>2° via de Nota Fiscal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAC</controllingFieldValue>
+            <valueName>Abertura de PI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAC</controllingFieldValue>
+            <valueName>Resposta do PI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAC</controllingFieldValue>
+            <valueName>Corrigir endereço de entrega</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAC</controllingFieldValue>
+            <valueName>Alteração de cadastro - Reset de senha</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAC</controllingFieldValue>
+            <valueName>Abertura troca e devolução</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAC</controllingFieldValue>
+            <valueName>Envio de código de postagem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAC</controllingFieldValue>
+            <valueName>Criar pedido de complemento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAC</controllingFieldValue>
+            <valueName>Comunicar ruptura/Falta estoque</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAC</controllingFieldValue>
+            <valueName>Solicitação de Dados Bancários</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAC</controllingFieldValue>
+            <valueName>Devolução sem processo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAC</controllingFieldValue>
+            <valueName>Falta item na reversa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAC</controllingFieldValue>
+            <valueName>Retorno KA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAC</controllingFieldValue>
+            <valueName>Retorno Financeiro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAC</controllingFieldValue>
+            <valueName>Retorno Logística</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAC</controllingFieldValue>
+            <valueName>Retorno Transportes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAC</controllingFieldValue>
+            <valueName>Retorno Marca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAC</controllingFieldValue>
+            <valueName>Retorno Tech</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAC</controllingFieldValue>
+            <valueName>Callback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Aguardando integrar limite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Aguardando integrar Pagamento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Aguardando integrar Pedido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Aguardando integrar Preço</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Aguardando integrar Produto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Aguardando integrar Tracking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Aguardando análise do KA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Aguardando cadastro do BI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Aguardando análise do SAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NRP</controllingFieldValue>
+            <valueName>Aguardando análise da controladoria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Logística</controllingFieldValue>
+            <controllingFieldValue>Darkstore</controllingFieldValue>
+            <valueName>Aguardando crossdocking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Key account</controllingFieldValue>
+            <valueName>Cupom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Key account</controllingFieldValue>
+            <valueName>Erro no site</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Key account</controllingFieldValue>
+            <valueName>Integracao de pedido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Key account</controllingFieldValue>
+            <valueName>Crossdocking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Key account</controllingFieldValue>
+            <valueName>Cotação</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Key account</controllingFieldValue>
+            <valueName>Autorização</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Key account</controllingFieldValue>
+            <valueName>Alteração no Cadastro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Key account</controllingFieldValue>
+            <valueName>Descrição de produto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Key account</controllingFieldValue>
+            <valueName>Falha no APP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Key account</controllingFieldValue>
+            <valueName>Falha no Whatsapp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Key account</controllingFieldValue>
+            <valueName>Venda assistida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Key account</controllingFieldValue>
+            <valueName>Guide Shop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportes</controllingFieldValue>
+            <valueName>Aguardando PI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportes</controllingFieldValue>
+            <valueName>Acareação</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportes</controllingFieldValue>
+            <valueName>Atraso na entrega</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportes</controllingFieldValue>
+            <valueName>Aprovação de extravio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportes</controllingFieldValue>
+            <valueName>Retido na fiscalização</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportes</controllingFieldValue>
+            <valueName>Atualização de rastreamento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportes</controllingFieldValue>
+            <valueName>CEP não foi atendido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportes</controllingFieldValue>
+            <valueName>Reclamação de entregador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportes</controllingFieldValue>
+            <valueName>Cotação Frete e transportadora</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportes</controllingFieldValue>
+            <valueName>Avaria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportes</controllingFieldValue>
+            <valueName>Entrega fracionada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportes</controllingFieldValue>
+            <valueName>Extravio PI - Reembolo IFC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportes</controllingFieldValue>
+            <valueName>Reversa Devolução</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Darkstore</controllingFieldValue>
+            <valueName>Previsão de entrega Darkstore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Darkstore</controllingFieldValue>
+            <valueName>Status pedido Darkstore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Darkstore</controllingFieldValue>
+            <valueName>Estoque Darkstore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distribuidor</controllingFieldValue>
+            <valueName>Contato/Visita de representante</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distribuidor</controllingFieldValue>
+            <valueName>Limite de crédito</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distribuidor</controllingFieldValue>
+            <valueName>Aprovação de cadastro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distribuidor</controllingFieldValue>
+            <valueName>Envio de catálogo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distribuidor</controllingFieldValue>
+            <valueName>Confirmação entrega</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distribuidor</controllingFieldValue>
+            <valueName>Ruptura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distribuidor</controllingFieldValue>
+            <valueName>Boleto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distribuidor</controllingFieldValue>
+            <valueName>Nota Fiscal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distribuidor</controllingFieldValue>
+            <valueName>Reclamação</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distribuidor</controllingFieldValue>
+            <valueName>Falta item</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distribuidor</controllingFieldValue>
+            <valueName>Retirada/Entrega de equipamento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>Erro Venda assistida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>Alterar workflow tarefa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>Alterar workflow pedido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>Fechar tarefa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>Recriar pedido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>Cancelar pedido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech</controllingFieldValue>
+            <valueName>Falha integração de e-mail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Market Place</controllingFieldValue>
+            <controllingFieldValue>Reclame Aqui</controllingFieldValue>
+            <valueName>Aguardando mediação</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Market Place</controllingFieldValue>
+            <valueName>Instabildiade/ Atualização plataforma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Market Place</controllingFieldValue>
+            <valueName>Liberar Instância na plataforma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reclame Aqui</controllingFieldValue>
+            <valueName>Aguardando avaliação</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

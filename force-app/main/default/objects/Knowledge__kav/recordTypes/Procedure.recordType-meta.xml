@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Procedure</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Layout_Compacto_Knowledge</compactLayoutAssignment>
+    <description>Usado para criar artigos de passo a passo ou de como realizar procedimentos.</description>
+    <label>Procedimentos</label>
+</RecordType>

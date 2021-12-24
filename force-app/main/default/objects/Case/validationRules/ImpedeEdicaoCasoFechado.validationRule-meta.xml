@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ImpedeEdicaoCasoFechado</fullName>
+    <active>true</active>
+    <description>Validação que impede o caso de ser editado quando o status seja Fechado.</description>
+    <errorConditionFormula>AND(
+  NOT(ISNEW()),
+  NOT(ISCHANGED(  Status  )),
+  ISPICKVAL(Status , &quot;Closed&quot;) 
+)</errorConditionFormula>
+    <errorMessage>Um Caso com Status Fechado não pode ser editado. Para edição o caso precisa ser reaberto.</errorMessage>
+</ValidationRule>

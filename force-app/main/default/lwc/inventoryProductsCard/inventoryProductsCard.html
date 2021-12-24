@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title={prod.name} class={divClass} onclick={handleClick} data-comment-id={prod.id}>
+        <div class="slds-var-p-horizontal_small bear-tile-body">
+            <div class="slds-media">
+                <div class="slds-media__body">
+                    <p class="slds-var-m-bottom_xx-small">SKU: {prod.sku}</p>
+                    <p class="slds-var-m-bottom_xx-small">Quantidade em Estoque: {prod.inventoryQuantity}</p>
+                    <p class="slds-var-m-bottom_xx-small">Preço: {prod.productPrice}</p>
+                    <p class="slds-var-m-bottom_xx-small">Cor: {prod.color}</p>
+                    <p class="slds-var-m-bottom_xx-small">Tamanho: {prod.size}</p>
+                </div>
+            </div>
+        </div>
+    </lightning-card>
+</template>

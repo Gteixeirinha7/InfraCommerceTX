@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone__c</fullName>
+    <description>Telefone da Marca</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Insira o telefone que poderá ser utilizado em templates e outros campos vinculados.</inlineHelpText>
+    <label>Telefone</label>
+    <length>15</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

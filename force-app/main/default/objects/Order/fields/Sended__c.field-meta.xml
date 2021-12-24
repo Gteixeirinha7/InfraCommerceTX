@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sended__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indica se o pedido já foi enviado para integração Pedido OUT</description>
+    <externalId>false</externalId>
+    <label>Enviado para Integração?</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

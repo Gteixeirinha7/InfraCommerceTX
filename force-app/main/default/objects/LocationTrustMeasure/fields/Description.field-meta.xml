@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Description</fullName>
+    <inlineHelpText>Explique como você realizará a medida de confiança. Seja conciso. Priorize clareza em vez de sentenças completas, pois você tem apenas 250 caracteres.</inlineHelpText>
+</CustomField>

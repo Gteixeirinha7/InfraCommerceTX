@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidaPedidoIntegracao</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(
+				AND(IntegrationOrder__c = true,
+								$User.Id &lt;&gt; &apos;0051k000006LK4K&apos;),
+				true, 
+				false
+)</errorConditionFormula>
+    <errorMessage>Não é possível alterar um Pedido vindo da Integração</errorMessage>
+</ValidationRule>

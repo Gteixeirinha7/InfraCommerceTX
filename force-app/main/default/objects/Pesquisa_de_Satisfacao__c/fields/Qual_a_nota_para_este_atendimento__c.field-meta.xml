@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qual_a_nota_para_este_atendimento__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Numa escala de 1 a 5, sendo 1 Muito Insatisfeito e 5 Totalmente Satisfeito. Qual a nota para este atendimento?</inlineHelpText>
+    <label>Qual a nota para este atendimento?</label>
+    <precision>1</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

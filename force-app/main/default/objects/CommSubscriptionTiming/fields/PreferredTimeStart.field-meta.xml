@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PreferredTimeStart</fullName>
+    <inlineHelpText>Início do período de tempo preferido no qual entrar em contato com o ponto de contato.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

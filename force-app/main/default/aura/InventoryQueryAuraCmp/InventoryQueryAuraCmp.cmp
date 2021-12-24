@@ -1,0 +1,70 @@
+<aura:component implements="force:appHostable" >
+    <aura:handler name="init" value="{!this}" action="{!c.init}" />  
+    <aura:attribute name="recordId" type="Id"/>
+
+    <aura:attribute name="headerLayout"   type="Boolean" default="true"/>
+    <aura:attribute name="navigateToProductView" type="Boolean" default="true" />
+    <aura:attribute name="navigateToOrderView" type="Boolean" default="true" />
+    <aura:attribute name="navigateToOrderProductsView" type="Boolean" default="true" />
+    <aura:attribute name="navigateToLogisticInfoView" type="Boolean" default="true" />
+
+    <aura:attribute name="brandId"     type="String"/>
+    <aura:attribute name="productsSkuList" type="List" />
+    <aura:attribute name="itemsList" type="List" />
+    <aura:attribute name="valorTotal" type="String" />
+    <aura:attribute name="listSelected" type="List" />
+    <aura:attribute name="productsSkuToContinue" type="List" />
+
+    <lightning:workspaceAPI aura:id="workspace" />
+    <aura:if isTrue="{!v.headerLayout}">
+		<c:inventoryQueryLWC 
+                recordId="{!v.recordId}"
+                ondisplaymyvaluenew="{!c.handleBrandSelection}"
+        ></c:inventoryQueryLWC>
+        <aura:set attribute="else">
+            <aura:if isTrue="{!v.navigateToProductView}">
+                <c:inventoryProductsView
+                    recordId="{!v.recordId}"
+                    brandId = "{!v.brandId}"
+                    productsSkuList = "{!v.productsSkuList}"
+                    ondisplaymyvaluenew="{!c.navigateToOrder}"
+                >
+                </c:inventoryProductsView>
+                <aura:set attribute="else">
+                    <aura:if isTrue="{!v.navigateToOrderView}">
+                        <c:cloneOrderLWC
+                            recordId="{!v.recordId}"
+                            itemsList = "{!v.itemsList}"
+                            productsSkuList = "{!v.productsSkuToContinue}"
+                            ondisplaymyvalueold = "{!c.handleBrandSelection}"
+                            ondisplaymyvaluenew = "{!c.navigateToOrderProducts}"
+                        >
+                        </c:cloneOrderLWC>
+                        <aura:set attribute="else">
+                            <aura:if isTrue="{!v.navigateToOrderProductsView}">
+                                <c:cloneOrderItemsLWC
+                                    recordId="{!v.recordId}"
+                                    itemsList = "{!v.itemsList}"
+                                    valorTotal = "{!v.valorTotal}"
+                                    productsSkuList = "{!v.productsSkuToContinue}"
+                                    ondisplaymyvalueold = "{!c.navigateToOrder}"
+                                    ondisplaymyvaluenew = "{!c.navigateToLogisticInfo}"
+                                >
+                                </c:cloneOrderItemsLWC>
+                                <aura:set attribute="else">
+                                    <c:cloneLogisticInformationLWC
+                                        recordId="{!v.recordId}"
+                                        itemSelecionados = "{!v.listSelected}"
+                                        valorTotal = "{!v.valorTotal}"
+                                        ondisplaymyvalueold = "{!c.navigateToOrderProducts}"
+                                    >
+                                    </c:cloneLogisticInformationLWC>
+                                </aura:set>
+                            </aura:if>
+                        </aura:set>                       
+                    </aura:if>
+                </aura:set>
+            </aura:if>
+        </aura:set>
+    </aura:if>
+</aura:component>

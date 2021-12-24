@@ -1,0 +1,32 @@
+<template>
+    <lightning-card>
+        <template if:true={showSpinner}>
+            <div class="exampleHolder">
+                <lightning-spinner alternative-text="Loading" size="small"></lightning-spinner>
+            </div>
+        </template>
+        <div class="slds-m-top_medium slds-m-bottom_x-large">
+            <h2 class="slds-text-heading_medium slds-m-bottom_medium" style="margin: 10px;">
+                Informações Logisticas do Pedido.
+            </h2>
+            <div class="demo-only demo-only--sizing slds-grid slds-wrap">
+                <div class="slds-size_1-of-2">
+                    <!--<lightning-input class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small" type="text" name="input7" label="Pedido"             disabled value={logisticInformation.Pedido__c}></lightning-input>-->
+                    <lightning-input class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small" onchange={handleEmpresaEntrega}  type="text" name="input7" label="Empresa de Entrega"       value={logisticInformation.deliveryCompany__c}></lightning-input>
+                    <lightning-input class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small" onchange={handleDataEstimada}    type="date" name="input7" label="Data Estimada de Entrega" value={logisticInformation.shippingEstimateDate__c} required="true"></lightning-input>
+                </div>
+                <div class="slds-size_1-of-2">
+                    <lightning-input class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small" onchange={handleContratoLogistico} type="text" name="input7" label="Contrato Logístico" value={logisticInformation.logisticContract__c}></lightning-input>
+                    <lightning-input class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small" disabled onchange={handleEstimativaEnvio} type="text" name="input7" label="Estimativa de Envio"      value={logisticInformation.shippingEstimate__c}></lightning-input>
+                    <!-- <lightning-input class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small" disabled type="number" formatter="currency" name="input7" label="Preço"              value={logisticInformation.price__c}></lightning-input> -->
+                    <!--<lightning-input class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small" onchange={handleListaPreco}        type="number" formatter="currency" name="input7" label="Lista de Preço"     value={logisticInformation.listPrice__c}></lightning-input>-->
+                    <!-- <lightning-input class="slds-box slds-box_x-small slds-text-align_center slds-m-around_x-small" disabled type="number" formatter="currency" name="input7" label="Preço de Venda"     value={logisticInformation.sellingPrice__c}></lightning-input> -->
+                </div>
+            </div>
+        </div>
+        <div class="slds-var-m-bottom_large slds-clearfix" style="margin-bottom: 10px; margin-right: 10px; margin-top: 10px;">
+            <lightning-button variant="brand-outline" label="Anterior" type="button" class="slds-m-left_x-small slds-float_left"  onclick={handleNavigateA}></lightning-button> 
+            <lightning-button variant="brand"         label="Salvar"   type="button" class="slds-m-left_x-small slds-float_right" onclick={handleSave}></lightning-button> 
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,10 @@
+{
+    "access_token": "4c690a20-0b1b-4396-bbe1-7d3160d43928",
+    "token_type": "bearer",
+    "expires_in": 9899,
+    "scope": "trust read write",
+    "rate_limit": 10,
+    "license_start_at": "",
+    "license_id": 225,
+    "organization_id": "1445"
+}

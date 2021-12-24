@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SortOrder</fullName>
+    <inlineHelpText>Indica o local em que essa medida de confiança está posicionada em seu layout. Por exemplo, em um layout de banner, uma ordem de exibição de 1 coloca o cartão de confiança à esquerda. Uma ordem de exibição de 2 coloca a medida de confiança à direita de 1.</inlineHelpText>
+</CustomField>

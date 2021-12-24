@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NotaAtendimento</fullName>
+    <active>true</active>
+    <errorConditionFormula>Qual_a_nota_para_este_atendimento__c &gt; 5</errorConditionFormula>
+    <errorMessage>A nota deve ser entre 1 e 5</errorMessage>
+</ValidationRule>

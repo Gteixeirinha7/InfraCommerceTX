@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BusinessHours__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Horário comercial da equipe de atendimento responsável por essa marca.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Informar o horário comercial da equipe de atendimento responsável por essa marca.</inlineHelpText>
+    <label>Horário Comercial</label>
+    <referenceTo>BusinessHours</referenceTo>
+    <relationshipName>BusinessHoursBrand</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

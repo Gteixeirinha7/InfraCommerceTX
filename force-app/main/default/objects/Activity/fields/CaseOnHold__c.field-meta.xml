@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CaseOnHold__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Campo de controle do Flow, para identificar se deve trocar o Status do Caso para Em espera(On Hold)</description>
+    <externalId>false</externalId>
+    <label>Caso em Espera?</label>
+    <type>Checkbox</type>
+</CustomField>
